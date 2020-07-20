@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/AbstractSparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/SparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/SparseArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/CycleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestSparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/META-INF/LinearStructure.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/AbstractSparseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/SparseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/SparseArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/CycleLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestSparseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/src/main/java/util/ObjectSizeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\JavaWorkspace\DataStructures-Algorithms\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ewS8H7p2ZoS1Mtvf19dG4Bg4Fz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22068965" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\test\java" />
+      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestQueue.testArrayQueue">
+    <configuration name="ObjectSizeTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectSizeTool" />
+      <module name="LinearStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList.testBidList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="testBidList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList.testUniList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="testUniList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueue.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestQueue" />
+      <option name="METHOD_NAME" value="testArrayQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSparseArray.testSparseArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSparseArray" />
+      <option name="METHOD_NAME" value="testSparseArr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestQueue.testArrayQueue" />
+        <item itemvalue="Application.ObjectSizeTool" />
+        <item itemvalue="JUnit.TestSparseArray.testSparseArr" />
+        <item itemvalue="JUnit.TestLinkedList.testUniList" />
+        <item itemvalue="JUnit.TestLinkedList.testBidList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="" />
+      <created>1595231000526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595231000526</updated>
+      <workItem from="1595231002418" duration="8407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="140" key="#Project_Structure" timestamp="1595231396732">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="446" y="140" key="#Project_Structure/0.0.1707.960@0.0.1707.960" timestamp="1595231396732" />
+    <state width="1663" height="563" key="GridCell.Tab.0.bottom" timestamp="1595238484730">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="563" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1595238484730" />
+    <state width="1663" height="563" key="GridCell.Tab.0.center" timestamp="1595238484730">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="563" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1595238484730" />
+    <state width="1663" height="563" key="GridCell.Tab.0.left" timestamp="1595238484730">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="563" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1595238484730" />
+    <state width="1663" height="563" key="GridCell.Tab.0.right" timestamp="1595238484730">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="563" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1595238484730" />
+    <state x="334" y="56" key="SettingsEditor" timestamp="1595231420844">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="334" y="56" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1595231420844" />
+    <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595239594052">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.960@0.0.1707.960" timestamp="1595239594052" />
+    <state x="241" y="87" key="new project wizard" timestamp="1595231088594">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="241" y="87" key="new project wizard/0.0.1707.960@0.0.1707.960" timestamp="1595231088594" />
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1595235523891">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1595235523891" />
+  </component>
+</project>
