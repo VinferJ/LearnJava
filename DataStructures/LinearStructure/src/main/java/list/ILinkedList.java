@@ -8,9 +8,16 @@ public interface ILinkedList<E> {
 
     /**
      * 链表新增元素
-     * @param ele       元素值
+     * @param ele       节点元素值
      */
     void add(E ele);
+
+    /**
+     * 向指定位置新增元素，该index必须是合法索引
+     * @param index     节点位置索引
+     * @param ele       节点元素值
+     */
+    void add(int index,E ele);
 
     /**
      * 链表头插一个元素

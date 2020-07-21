@@ -16,14 +16,17 @@ public class TestQueue {
         for (int i = 0; i < 5; i++) {
             queue.add(i);
         }
-
+        for (int i = 0; i < 5; i++) {
+            System.out.println(queue.peek());
+        }
+        System.out.println(queue.queueIsEmpty());
         for (int i = 0; i < 5; i++) {
             System.out.println(queue.poll());
         }
+        System.out.println(queue.queueIsEmpty());
+        queue.add(996);
         queue.clear();
-
-        LinkedQueue<Integer> linkedQueue = new LinkedQueue<>();
-
+        System.out.println(queue.queueIsEmpty());
     }
 
 }

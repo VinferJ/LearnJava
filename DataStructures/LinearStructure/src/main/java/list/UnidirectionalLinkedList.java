@@ -30,12 +30,27 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
 
     @Override
     public void add(E ele){
-        linkedLast(ele);
+        linkLast(ele);
+    }
+
+    @Override
+    public void add(int index, E ele) {
+        /*
+        * 指定位置插入的元素，该索引也必须是合法索引
+        * 因此如果对空链表使用该方法新增元素，那么index只能是0
+        * */
+        checkIndex(index);
+        if(index==0){
+            //index是0直接头插
+            linkFirst(ele);
+        }else{
+            linkNode(index, ele);
+        }
     }
 
     @Override
     public void addFirst(E ele){
-        linkedFirst(ele);
+        linkFirst(ele);
     }
 
     /**
@@ -43,14 +58,20 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * 尾插头不动
      * @param ele       元素值
      */
-    void linkedLast(E ele){
+    void linkLast(E ele){
         if(head==null){
+            /*链表为空时，头结点初始化为一个新节点，并将尾结点指向头结点*/
             head = new Node<>(ele,null);
             tail=head;
         }else{
+            /*头结点不为空即链表长度>1时*/
+            //初始化新节点
             Node<E> newNode = new Node<>(ele,null);
+            //拿到尾结点
             Node<E> lastNode = tail;
+            //将尾结点的next指向新节点
             lastNode.next=newNode;
+            //更新尾结点，将其指向新节点
             tail=newNode;
         }
         size++;
@@ -61,14 +82,37 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * 头插尾不动
      * @param ele       元素值
      */
-    private void linkedFirst(E ele){
+    void linkFirst(E ele){
         if(head==null){
+            /*链表为空时，头结点初始化为一个新节点，并将尾结点指向头结点*/
             head = new Node<>(ele,null);
             tail=head;
         }else{
+            /*
+            * 由于是单向链表。因此头插很简单
+            * 拿到头结点，将头结点指向新节点
+            * 并且该新的头结点的next指向旧的头结点
+            * */
             Node<E> firstNode = head;
             head= new Node<>(ele,firstNode);
         }
+        size++;
+    }
+
+    /**
+     * 向头节点除外的指定位置插入新节点
+     * @param index     节点位置索引
+     * @param ele       节点元素值
+     */
+    void linkNode(int index,E ele){
+        //先拿到index-1处的node
+        Node<E> node = node(index-1);
+        /*
+        * 该操作包含了两部：
+        *   初始化新节点，新节点的next直接指向node.next
+        *   将node.next指向新节点，与旧的节点断联
+        * */
+        node.next = new Node<>(ele,node.next);
         size++;
     }
 
@@ -79,8 +123,10 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             while (true){
                 System.out.print(node.element+"\t");
                 if(hasNext(node)){
+                    //遍历下一个节点
                     node=node.next;
                 }else{
+                    //遍历完成后换行
                     System.out.println();
                     break;
                 }
@@ -125,13 +171,14 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             node = node(index-1);
             Node<E> delNode = node.next;
             if(index == size-1){
-                //如果删除的是尾结点，那么直接将尾结点指向删除节点的上一个节点，尾结点上移一位
+                //如果删除的是尾结点，那么直接将尾结点指向删除节点的上一个节点，尾结点上移一位，并且next置为null
                 tail = node;
+                tail.next = null;
             }else{
                 //将删除节点的上一个节点指向删除节点的下一个节点
                 node.next = delNode.next;
             }
-            //将删除节点置为null
+            //将删除节点置为null，等待GC
             delNode = null;
         }
         size--;

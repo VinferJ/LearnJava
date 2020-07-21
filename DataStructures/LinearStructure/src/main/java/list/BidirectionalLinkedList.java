@@ -35,6 +35,16 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
     }
 
     @Override
+    public void add(int index, E ele) {
+        checkIndex(index);
+        if(index==0){
+            linkFirst(ele);
+        }else{
+            linkNode(index,ele);
+        }
+    }
+
+    @Override
     public void addFirst(E ele){
         linkFirst(ele);
     }
@@ -43,10 +53,13 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
     public void delete(int index){
         checkIndex(index);
         if(index==0){
+            //index为0，删除头结点
             unlinkFirst();
         }else if(index==size-1){
+            //index为size-1，删除尾结点
             unlinkLast();
         }else{
+            //删除指定index的节点（头尾除外）
             unlinkNode(index);
         }
         size--;
@@ -69,21 +82,34 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         return size;
     }
 
-
-    private void linkFirst(E ele){
+    /**
+     * 头插一个新节点
+     * @param ele       节点元素值
+     */
+    void linkFirst(E ele){
+        //初始化一个新节点
         Node<E> newNode = new Node<>(null,ele,null);
         if(head==null){
+            //头结点为空时，头结点指向新节点，头尾关联
             head = newNode;
             tail = head;
         }else{
+            //拿到头结点
             Node<E> firstNode = head;
+            //头结点指向新节点，更新头结点
             head=newNode;
+            //此时新的头结点的next指向原来旧的头结点
             head.next=firstNode;
+            //旧的头结点(第二个节点)的prev指向新的头结点
             firstNode.prev=head;
         }
         size++;
     }
 
+    /**
+     * 尾插一个新节点
+     * @param ele       节点元素值
+     */
     void linkLast(E ele){
         Node<E> newNode = new Node<>(null,ele,null);
         if(head==null){
@@ -101,6 +127,31 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
             //将旧的尾结点的next指向新的尾结点
             lastNode.next=tail;
         }
+        size++;
+    }
+
+    /**
+     * 向除头节点以外的节点处插入新元素
+     * @param index         节点位置索引
+     * @param ele           节点元素值
+     */
+    void linkNode(int index,E ele){
+        //拿到插入位置的前一个节点（index-1）
+        Node<E> node = node(index-1);
+        /*
+        * 此操作包含3步：
+        *   1. 初始化一个新节点
+        *   2. 新节点的prev指向node，next指向node.next
+        *   3. node.next指向该新节点
+        * */
+        node.next = new Node<>(node,ele,node.next);
+        /*
+        * 还需要将新插入节点的下一个节点的prev指向该插入节点
+        * 由于node.next已经指向了新插入的节点，
+        * 因此新插入节点是node.next，
+        * 而新插入节点的下一个节点是node.next.next
+        * */
+        node.next.next.prev = node.next;
         size++;
     }
 
@@ -152,9 +203,7 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         delNode = null;
     }
 
-    /**
-     * 链表变量，默认遍历顺序为：head->tail
-     */
+
     @Override
     public void iterate(){
         if(isNotEmpty()){
@@ -173,6 +222,9 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         }
     }
 
+    /**
+     * 逆序遍历输出链表元素
+     */
     public void iterateByDesc(){
         if(isNotEmpty()){
             Node<E> node = tail;
@@ -195,6 +247,11 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         return size != 0;
     }
 
+    /**
+     * 根基索引值获取指定节点
+     * @param index         指定的节点位置索引
+     * @return              返回一个双链表节点
+     */
     private Node<E> node(int index){
         //获取头结点
         Node<E> node = head;

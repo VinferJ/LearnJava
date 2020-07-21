@@ -5,7 +5,7 @@ package queue;
  * @description     队列-基于数组实现
  * @date 2020-07-20  16:35
  **/
-public class ArrayQueue<E>{
+public class ArrayQueue<E> implements IQueue<E>{
 
     private static final int DEFAULT_MAX_CAPACITY=Integer.MAX_VALUE;
 
@@ -29,9 +29,15 @@ public class ArrayQueue<E>{
         elementData=new Object[size];
     }
 
+    @Override
     public void add(E ele){
-        enqueue(ele);}
+        enqueue(ele);
+    }
 
+    /**
+     * 队列入队，头指针不动，尾指针后移
+     * @param ele       入队元素
+     */
     private void enqueue(E ele){
         /*
         * 队列入队：
@@ -43,18 +49,26 @@ public class ArrayQueue<E>{
         checkNotNull(ele);
         //检查队列容量，队列满时不能再插入元素，会抛出异常
         checkCapacity();
-        if(frontPointer==-1||rearPointer==-1) {
+        if(queueIsEmpty()) {
+            //队列为空时，头指针也要加1变为0
             frontPointer++;
         }
+        //尾指针自增1
         rearPointer++;
+        //尾元素赋值
         elementData[rearPointer]=ele;
     }
 
+    /**
+     * 队列元素出队，尾指针不动，头指针后移（向尾指针方向）
+     * @return      返回出队元素
+     */
     private E dequeue(){
         if(queueIsEmpty()){
             throw new RuntimeException("queue is empty");
         }else{
-            E first = (E) elementData[frontPointer];
+            E first = getFirst();
+            //已出队元素置为null
             elementData[frontPointer]=null;
             /*
              * 如果front=rear，说明以及走到了最后一个元素
@@ -65,18 +79,16 @@ public class ArrayQueue<E>{
                 frontPointer = -1;
                 rearPointer = -1;
             }else{
+                //头指针后移1
                 frontPointer++;
             }
+            //返回出队元素
             return first;
         }
     }
 
     private E getFirst(){
-        if(queueIsEmpty()){
-            throw new RuntimeException("queue is empty");
-        }else{
-            return (E) elementData[frontPointer];
-        }
+        return (E) elementData[frontPointer];
     }
 
     private void checkCapacity(){
@@ -85,7 +97,8 @@ public class ArrayQueue<E>{
         }
     }
 
-    private boolean isFull(){
+    @Override
+    public boolean isFull(){
         return rearPointer==size-1;
     }
 
@@ -95,29 +108,28 @@ public class ArrayQueue<E>{
         }
     }
 
-    private boolean queueIsEmpty(){
+    @Override
+    public boolean queueIsEmpty(){
         return frontPointer==-1&&rearPointer==-1;
     }
 
-    /**
-     * 取出队头元素但是该队头元素不出队
-     * @return      返回队列首元素
-     */
+
+    @Override
     public E peek(){
         return getFirst();
     }
 
-    /**
-     * 获取队头元素，并且队头元素出队
-     * @return      返回队列头部元素
-     */
+    @Override
     public E poll(){
         return dequeue();
     }
 
-    /**
-     * 清空队列
-     */
+    @Override
+    public int size() {
+        return size;
+    }
+
+    @Override
     public void clear(){
         if(!queueIsEmpty()){
             for (Object elementDatum : elementData) {
