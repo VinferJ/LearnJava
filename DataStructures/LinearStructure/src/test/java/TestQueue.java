@@ -1,6 +1,7 @@
 import array.SparseArray;
 import org.junit.Test;
 import queue.ArrayQueue;
+import queue.LinkedQueue;
 
 /**
  * @author Vinfer
@@ -15,10 +16,14 @@ public class TestQueue {
         for (int i = 0; i < 5; i++) {
             queue.add(i);
         }
+
         for (int i = 0; i < 5; i++) {
             System.out.println(queue.poll());
         }
         queue.clear();
+
+        LinkedQueue<Integer> linkedQueue = new LinkedQueue<>();
+
     }
 
 }

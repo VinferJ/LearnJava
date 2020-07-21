@@ -21,6 +21,7 @@ public class ArrayQueue<E>{
     public ArrayQueue(int capacity){
         size=capacity;
         elementData=new Object[size];
+
     }
 
     public ArrayQueue(){

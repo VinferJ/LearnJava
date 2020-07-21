@@ -5,7 +5,7 @@ package list;
  * @author Vinfer
  * @date 2020-07-14  01:54
  **/
-public class UnidirectionalLinkedList<E>{
+public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
 
     private static class Node<E>{
         E element;
@@ -23,31 +23,17 @@ public class UnidirectionalLinkedList<E>{
 
     private int size=0;
 
-    public Node<E> getHead() {
-        return head;
-    }
-
-    public void setHead(Node<E> head) {
-        this.head = head;
-    }
-
-    public Node<E> getTail() {
-        return tail;
-    }
-
-    public void setTail(Node<E> tail) {
-        this.tail = tail;
-    }
-
+    @Override
     public int size() {
         return size;
     }
 
-
+    @Override
     public void add(E ele){
         linkedLast(ele);
     }
 
+    @Override
     public void addFirst(E ele){
         linkedFirst(ele);
     }
@@ -86,17 +72,16 @@ public class UnidirectionalLinkedList<E>{
         size++;
     }
 
-    /**
-     * 链表迭代：head->tail
-     */
+    @Override
     public void iterate(){
-        if(!isEmpty()){
+        if(isNotEmpty()){
             Node<E> node=head;
             while (true){
-                System.out.println(node.element);
+                System.out.print(node.element+"\t");
                 if(hasNext(node)){
                     node=node.next;
                 }else{
+                    System.out.println();
                     break;
                 }
             }
@@ -105,9 +90,51 @@ public class UnidirectionalLinkedList<E>{
         }
     }
 
+    @Override
     public E get(int index){
         checkIndex(index);
         return node(index).element;
+    }
+
+    @Override
+    public void delete(int index){
+        remove(index);
+    }
+
+    @Override
+    public void set(int index, E ele){
+        checkIndex(index);
+        //获取index处的节点,然后替换值
+        node(index).element = ele;
+    }
+
+    /**
+     * 移除链表指定位置的节点
+     * @param index         删除节点的位置索引
+     */
+    private void remove(int index){
+        //检验index是否合法
+        checkIndex(index);
+        Node<E> node = head;
+        if(index == 0){
+            //index为0时删除的是头结点，直接头结点下移一位
+            head = node.next;
+            node = null;
+        }else{
+            //先拿到 index-1 处的节点，即要删除的节点的上一个节点
+            node = node(index-1);
+            Node<E> delNode = node.next;
+            if(index == size-1){
+                //如果删除的是尾结点，那么直接将尾结点指向删除节点的上一个节点，尾结点上移一位
+                tail = node;
+            }else{
+                //将删除节点的上一个节点指向删除节点的下一个节点
+                node.next = delNode.next;
+            }
+            //将删除节点置为null
+            delNode = null;
+        }
+        size--;
     }
 
     private boolean hasNext(Node<E> node){
@@ -128,8 +155,9 @@ public class UnidirectionalLinkedList<E>{
         return node;
     }
 
-    public boolean isEmpty(){
-        return size==0;
+    @Override
+    public boolean isNotEmpty(){
+        return size!=0;
     }
 
     private boolean isElementIndex(int index){
