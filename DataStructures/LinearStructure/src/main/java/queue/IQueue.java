@@ -48,4 +48,9 @@ public interface IQueue<E> {
      */
     void clear();
 
+    /**
+     * 输出显示队列出入队顺序
+     */
+    void display();
+
 }

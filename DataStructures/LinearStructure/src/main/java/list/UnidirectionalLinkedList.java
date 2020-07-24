@@ -1,5 +1,7 @@
 package list;
 
+import sort.SimpleSort;
+
 /**
  * @description         单链表
  * @author Vinfer
@@ -7,9 +9,17 @@ package list;
  **/
 public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
 
-    private static class Node<E>{
+    /**
+     * 链表节点对象
+     * @param <E>   节点存储数据类型
+     */
+    static class Node<E>{
+        /** 节点元素值 */
         E element;
+
+        /** 该节点指向的下一个节点对象 */
         Node<E> next;
+
         Node(E ele,Node<E> next){
             this.element=ele;
             this.next=next;
@@ -17,11 +27,15 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
         Node(){}
     }
 
+    /** 链表头结点，头结点可存放数据也可不存放数据，这里选择存放数据 */
     private Node<E> head;
 
+    /** 链表尾结点 */
     private Node<E> tail;
 
+    /** 链表大小，初始大小为0 */
     private int size=0;
+
 
     @Override
     public int size() {
@@ -59,6 +73,11 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * @param ele       元素值
      */
     void linkLast(E ele){
+        /*
+        * 如果头结点也存放数据，那么每次插入都必须判断head是否为空
+        * 如果head不存放数据，那么每次插入都不需要判断head是否空，头插也一样
+        * 就是需要额外的一个节点作为head节点
+        * */
         if(head==null){
             /*链表为空时，头结点初始化为一个新节点，并将尾结点指向头结点*/
             head = new Node<>(ele,null);
@@ -137,6 +156,25 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
     }
 
     @Override
+    public String toString(){
+        StringBuilder str = new StringBuilder();
+        Node<E> node = head;
+        str.append("[ ");
+        if(isNotEmpty()){
+            while (true){
+                str.append(node.element).append(" ");
+                if(node.next==null){
+                    break;
+                }
+                node = node.next;
+            }
+            str.append("]");
+            return str.toString();
+        }
+        return null;
+    }
+
+    @Override
     public E get(int index){
         checkIndex(index);
         return node(index).element;
@@ -188,7 +226,7 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
         return node.next != null;
     }
 
-    private Node<E> node(int index){
+    Node<E> node(int index){
         Node<E> node = head;
         /*遍历到index位置的node*/
         for (int i = 0; i < index; i++) {
@@ -200,6 +238,30 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             node=node.next;
         }
         return node;
+    }
+
+    /**
+     * 删除头结点，并返回该节点元素值
+     * @return          返回顶部节点元素值
+     */
+    public E pop(){
+        if(isNotEmpty()){
+            Node<E> node = head;
+            //拿到当前头结点的节点元素值
+            E ele = node.element;
+            //将头结点指向下一个节点
+            head = node.next;
+            //将旧的头结点置为null，等待GC
+            node = null;
+            if(head==null){
+                tail = null;
+            }
+            size--;
+            return ele;
+        }else{
+            throw new RuntimeException("List is empty");
+        }
+
     }
 
     @Override
@@ -244,6 +306,10 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             Node<E> currentLastNode=tail;
             //当前尾结点的索引值
             int currentLastIndex=size-1;
+
+            /*
+            * O(N^2)复杂度的链表倒置，空间开销小，只需要3个中间节点
+            * */
             for (int i = 0; i < size-1; i++) {
                 //每次都从头结点开始遍历
                 tempNode=head;
@@ -266,5 +332,165 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             head=lastNode;
         }
     }
+
+    /**
+     * 低时间复杂度的链表倒置
+     */
+    public void reverseByArr(){
+        if(tail!=head && head!=null){
+            /*
+            * 使用中间数组的链表倒置方式，耗费额外的空间（空间开销大，需要存储链表元素的数组）
+            * 但是可以把时间复杂度降到O(N)
+            * */
+            Object[] eleArr = new Object[size];
+            int len = size;
+            for (int i = 0; i < len; i++) {
+                /*
+                * 将链表元素一个个出栈，并将这些元素从尾部至头部
+                * 存放到中间数组中，此时完成了元素逆序存储，此时链表元素
+                * 以及全部出栈，链表为空
+                * */
+                eleArr[len-1-i] = pop();
+            }
+            /*将中间数组的值重新放入链表*/
+            for (int i = 0; i < len; i++) {
+                /*
+                * 再将中间数组的元素顺序取出并尾插到链表中
+                * */
+                linkLast((E) eleArr[i]);
+            }
+        }
+    }
+
+
+    /**
+     * 使用头插进行连表倒置
+     */
+    public void reverseByLinkFirst(){
+        /*
+        * 通过头插节点进行链表逆置：
+        * 头结点不动，从第二个开始，通过不断取出该节点并进行头插
+        * 最终完成链表倒置
+        * 由于头插完之后需要删除节点，而删除节点需要在循环内删除
+        * 该链表倒置的方法时间复杂度依旧为O(N^2),但是空间开销降为了两个中间节点
+        * */
+        if(head!=null && head.next!=null){
+            //保存旧的头结点的下一个节点（第二个节点）
+            Node<E> currentHead = head.next;
+            //节点删除计数，总是从2开始（因为遍历是从第二个节点开始）
+            int removeCount = 2;
+            for (int i = 0; i < size - 1; i++) {
+                //获取当前需要头插的节点
+                Node<E> node = currentHead;
+                //头插节点
+                linkFirst(node.element);
+                //移除已经头插的节点
+                remove(removeCount);
+                //将中间节点指向下一个节点
+                currentHead = currentHead.next;
+                //删除计数自增1
+                removeCount++;
+            }
+        }
+    }
+
+    /**
+     * 从某个节点开始逆序遍历，使用递归进行遍历
+     * @param startIndex    开始遍历的链表节点位置索引
+     * @return              返回一个节点索引值
+     */
+    public int iterateByDesc(int startIndex){
+        int currentIndex;
+        if(startIndex!=size-1){
+            currentIndex = iterateByDesc(startIndex+1);
+        }
+        currentIndex = startIndex;
+        System.out.print(node(currentIndex).element+" ");
+        return startIndex;
+    }
+
+    /**
+     * 非递归逆序遍历链表，时间复杂度为O(N^2)
+     */
+    public void descIterate(){
+        System.out.println();
+        for (int i = size-1; i >=0 ; i--) {
+            System.out.print(node(i).element+" ");
+        }
+        System.out.println();
+    }
+
+    /**
+     * 整型链表元素排序
+     */
+    public void sort(){
+        E ele = head.element;
+        /*不是整型数据，不允许排序*/
+        if(ele instanceof Integer){
+            /*
+            * 链表排序思路：
+            *   将链表元素弹出，存放到整型中间数组中
+            *   将该数组用冒泡排序进行排序
+            *   将排序好的元素尾插到原链表中
+            *   排序的时间复杂度为O(N^2)+2*O(N),且空间开销较大
+            * */
+            Integer[] eleArr = new Integer[size];
+            int len = size;
+            for (int i = 0; i < len; i++) {
+                eleArr[i] = (Integer) pop();
+            }
+            /*冒泡排序*/
+            SimpleSort.bubbleSort(eleArr);
+            for (int i = 0; i < len; i++) {
+                linkLast((E) eleArr[i]);
+            }
+            //将数组置为null，等待GC
+            eleArr = null;
+        }else{
+            throw new RuntimeException("Only sort when data type is integer");
+        }
+    }
+
+    /**
+     * 链表合并，合并后的链表有序
+     * @param list     合并的链表
+     */
+    public void combination(UnidirectionalLinkedList<Integer> list){
+        //链表连接
+        tail.next = (Node<E>) list.head;
+        size+=list.size;
+        sort();
+    }
+
+    /**
+     * 合并两个无序整型链表，合并后链表有序
+     * @param list1         合并链表1
+     * @param list2         合并链表2
+     * @return              返回一个有序的整型链表
+     */
+    public static UnidirectionalLinkedList<Integer> combination(UnidirectionalLinkedList<Integer> list1,UnidirectionalLinkedList<Integer> list2){
+        UnidirectionalLinkedList<Integer> targetList =  new UnidirectionalLinkedList<>();
+        /*
+        * 用于直接用链表指针连接链表会导致list1结构被修改
+        * 因此需要遍历连链表的值再进行排序合并
+        * */
+        int len = list1.size+list2.size;
+        int indexCount = 0;
+        int[] eleArr = new int[len];
+        for (int i = 0; i < list1.size; i++) {
+            eleArr[i] =  list1.node(i).element;
+        }
+        for (int i = list1.size; i < len; i++) {
+            eleArr[i] =  list2.node(indexCount).element;
+            indexCount++;
+        }
+        /*冒泡排序*/
+        SimpleSort.bubbleSort(eleArr);
+        for (int i = 0; i < len; i++) {
+            targetList.linkLast(eleArr[i]);
+        }
+        return targetList;
+    }
+
 
 }

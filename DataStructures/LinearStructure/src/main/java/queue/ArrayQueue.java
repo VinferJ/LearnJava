@@ -2,7 +2,7 @@ package queue;
 
 /**
  * @author Vinfer
- * @description     队列-基于数组实现
+ * @description     队列-基于数组实现，缺点：数组不能复用
  * @date 2020-07-20  16:35
  **/
 public class ArrayQueue<E> implements IQueue<E>{
@@ -25,8 +25,7 @@ public class ArrayQueue<E> implements IQueue<E>{
     }
 
     public ArrayQueue(){
-        size=DEFAULT_MAX_CAPACITY;
-        elementData=new Object[size];
+        this(DEFAULT_MAX_CAPACITY);
     }
 
     @Override
@@ -116,6 +115,9 @@ public class ArrayQueue<E> implements IQueue<E>{
 
     @Override
     public E peek(){
+        if(queueIsEmpty()) {
+            throw new RuntimeException("queue is empty");
+        }
         return getFirst();
     }
 
@@ -140,8 +142,18 @@ public class ArrayQueue<E> implements IQueue<E>{
         }
     }
 
-
-
+    @Override
+    public void display() {
+        if(queueIsEmpty()){
+            throw new RuntimeException("Queue is empty");
+        }
+        /*
+        * 因为front是指向首元素的，因此遍历次数为front+size-1（而不是front+size）
+        * */
+        for (int i = frontPointer; i < frontPointer+size-1; i++) {
+            System.out.print(i==frontPointer+size-2?elementData[i]:elementData[i]+" => ");
+        }
+    }
 
 
 }

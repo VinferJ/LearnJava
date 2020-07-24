@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/IQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/src/main/java/sort/SimpleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/CycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/IQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/IQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/META-INF/LinearStructure.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/CycleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +78,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -83,14 +96,7 @@
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestQueue.testArrayQueue">
-    <configuration name="ObjectSizeTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectSizeTool" />
-      <module name="LinearStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestLinkedList.testUList2">
     <configuration name="TestLinkedList.testBidList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinearStructure" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,11 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.testLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.testUList2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinearStructure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
-      <option name="METHOD_NAME" value="testLinkedList" />
+      <option name="METHOD_NAME" value="testUList2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,13 +137,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestQueue.testCycleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestQueue" />
+      <option name="METHOD_NAME" value="testCycleQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQueue.testArrayQueue" />
-        <item itemvalue="JUnit.TestLinkedList.testBidList" />
+        <item itemvalue="JUnit.TestLinkedList.testUList2" />
         <item itemvalue="JUnit.TestLinkedList.testUniList" />
-        <item itemvalue="JUnit.TestLinkedList.testLinkedList" />
-        <item itemvalue="Application.ObjectSizeTool" />
+        <item itemvalue="JUnit.TestLinkedList.testBidList" />
+        <item itemvalue="JUnit.TestQueue.testCycleQueue" />
+        <item itemvalue="JUnit.TestQueue.testArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +181,10 @@
       <updated>1595231000526</updated>
       <workItem from="1595231002418" duration="21710000" />
       <workItem from="1595324966870" duration="1279000" />
-      <workItem from="1595326264982" duration="4959000" />
+      <workItem from="1595326264982" duration="9704000" />
+      <workItem from="1595465559229" duration="17151000" />
+      <workItem from="1595506449392" duration="1450000" />
+      <workItem from="1595555069279" duration="17435000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -181,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595325106155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释">
+      <created>1595331318209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595331318209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,56 +216,92 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#init project" />
     <MESSAGE value="#update project&#10;1. 更新了数组队列数据结构+测试&#10;2. 补全和优化了单向链表和双向链表的api" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update project&#10;1. 更新了数组队列数据结构+测试&#10;2. 补全和优化了单向链表和双向链表的api" />
+    <MESSAGE value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="140" key="#Project_Structure" timestamp="1595231396732">
+    <state x="446" y="140" key="#Inspections" timestamp="1595558704973">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="446" y="140" key="#Project_Structure/0.0.1707.960@0.0.1707.960" timestamp="1595231396732" />
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595330390405">
+    <state x="446" y="140" key="#Inspections/0.0.1707.960@0.0.1707.960" timestamp="1595558704973" />
+    <state x="446" y="140" key="#Project_Structure" timestamp="1595506489440">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595330390405" />
-    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1595331306356">
+    <state x="446" y="140" key="#Project_Structure/0.0.1707.960@0.0.1707.960" timestamp="1595506489440" />
+    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595471776801">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1595331306356" />
-    <state width="1663" height="320" key="GridCell.Tab.0.bottom" timestamp="1595331135624">
+    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595471776801" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595473528832">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1595331135624" />
-    <state width="1663" height="320" key="GridCell.Tab.0.center" timestamp="1595331135624">
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.960@0.0.1707.960" timestamp="1595473528832" />
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1595331316576">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1595331135624" />
-    <state width="1663" height="320" key="GridCell.Tab.0.left" timestamp="1595331135624">
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1595331316576" />
+    <state x="93" y="93" width="1521" height="775" key="DiffContextDialog" timestamp="1595595575288">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1595331135624" />
-    <state width="1663" height="320" key="GridCell.Tab.0.right" timestamp="1595331135624">
+    <state x="93" y="93" width="1521" height="775" key="DiffContextDialog/0.0.1707.960@0.0.1707.960" timestamp="1595595575288" />
+    <state x="634" y="236" key="FileChooserDialogImpl" timestamp="1595338516695">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="320" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1595331135624" />
-    <state x="334" y="56" key="SettingsEditor" timestamp="1595326578371">
+    <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595338516695" />
+    <state width="1663" height="289" key="GridCell.Tab.0.bottom" timestamp="1595599260883">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="334" y="56" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1595326578371" />
-    <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595325153096">
+    <state width="1663" height="289" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1595599260883" />
+    <state width="1663" height="289" key="GridCell.Tab.0.center" timestamp="1595599260883">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595325153096" />
+    <state width="1663" height="289" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1595599260883" />
+    <state width="1663" height="289" key="GridCell.Tab.0.left" timestamp="1595599260883">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="289" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1595599260883" />
+    <state width="1663" height="289" key="GridCell.Tab.0.right" timestamp="1595599260883">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1663" height="289" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1595599260883" />
+    <state x="334" y="56" key="SettingsEditor" timestamp="1595338965326">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="334" y="56" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1595338965326" />
+    <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595331321440">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595331321440" />
+    <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595595575288">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1707.960@0.0.1707.960" timestamp="1595595575288" />
     <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595239594052">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.960@0.0.1707.960" timestamp="1595239594052" />
-    <state x="241" y="87" key="new project wizard" timestamp="1595231088594">
+    <state x="241" y="87" key="new project wizard" timestamp="1595597566804">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="241" y="87" key="new project wizard/0.0.1707.960@0.0.1707.960" timestamp="1595231088594" />
-    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1595266442447">
+    <state x="241" y="87" key="new project wizard/0.0.1707.960@0.0.1707.960" timestamp="1595597566804" />
+    <state x="510" y="221" key="run.anything.popup" timestamp="1595559178364">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1595266442447" />
+    <state x="510" y="221" key="run.anything.popup/0.0.1707.960@0.0.1707.960" timestamp="1595559178364" />
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1595558335803">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1595558335803" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

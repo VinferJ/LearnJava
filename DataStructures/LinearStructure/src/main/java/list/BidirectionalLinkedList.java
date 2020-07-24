@@ -7,11 +7,20 @@ package list;
  **/
 public class BidirectionalLinkedList<E> implements ILinkedList<E>{
 
-
+    /**
+     * 链表节点对象
+     * @param <E>       节点存储数据类型
+     */
     static class Node<E>{
+        /** 节点指向的前一个节点对象 */
         Node<E> prev;
+
+        /** 节点指向的下一个节点对象 */
         Node<E> next;
+
+        /** 节点元素值 */
         E element;
+
         Node(Node<E>prev,E ele,Node<E>next){
             this.prev=prev;
             this.element=ele;
@@ -23,11 +32,14 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         Node(){}
     }
 
-    Node<E> head;
+    /** 头结点 */
+    private Node<E> head;
 
-    Node<E> tail;
+    /** 尾结点 */
+    private Node<E> tail;
 
-    int size;
+    /** 链表大小，初始为0*/
+    private int size=0;
 
     @Override
     public void add(E ele){
@@ -220,6 +232,25 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         }else{
             throw new RuntimeException("LinkedList is empty");
         }
+    }
+
+    @Override
+    public String toString(){
+        StringBuilder str = new StringBuilder();
+        Node<E> node = head;
+        str.append("[ ");
+        if(isNotEmpty()){
+            while (true){
+                str.append(node.element).append(" ");
+                if(node.next==null){
+                    break;
+                }
+                node = node.next;
+            }
+            str.append("]");
+            return str.toString();
+        }
+        return null;
     }
 
     /**
