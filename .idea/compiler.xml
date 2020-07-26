@@ -6,10 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Algorithms" />
         <module name="LinearStructure" />
+        <module name="Creational" />
+        <module name="DataStructures-Algorithm" />
+        <module name="Algorithms" />
         <module name="Exercises" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Algorithms" target="1.5" />
+      <module name="DataStructures" target="1.5" />
+      <module name="LinearStructure" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
