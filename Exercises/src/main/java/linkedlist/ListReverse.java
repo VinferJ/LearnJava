@@ -1,6 +1,6 @@
 package linkedlist;
 
-import list.UnidirectionalLinkedList;
+import list.SingleLinkedList;
 
 /**
  * @author Vinfer
@@ -10,7 +10,7 @@ public class ListReverse {
 
 
     public static void main(String[] args) {
-        UnidirectionalLinkedList<Integer> singleList = new UnidirectionalLinkedList<Integer>();
+        SingleLinkedList<Integer> singleList = new SingleLinkedList<Integer>();
 
         /*
         * 1. 求链表节点个数

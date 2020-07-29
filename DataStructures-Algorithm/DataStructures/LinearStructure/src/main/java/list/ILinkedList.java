@@ -26,10 +26,17 @@ public interface ILinkedList<E> {
     void addFirst(E ele);
 
     /**
-     * 删除一个节点
+     * 根据节点位置索引删除一个节点
      * @param index     链表节点位置的索引
      */
     void delete(int index);
+
+    /**
+     * 根据节点元素删除元素值相同的第一个节点
+     * @param ele       节点元素值
+     * @return          如果存放该元素值并删除成功，返回true，否则返回false
+     */
+    boolean remove(E ele);
 
     /**
      * 更新指定索引的节点值

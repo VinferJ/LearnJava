@@ -1,5 +1,6 @@
 package list;
 
+import com.sun.xml.internal.bind.v2.model.core.EnumLeafInfo;
 import sort.SimpleSort;
 
 /**
@@ -7,7 +8,7 @@ import sort.SimpleSort;
  * @author Vinfer
  * @date 2020-07-14  01:54
  **/
-public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
+public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinkedList<E>{
 
     /**
      * 链表节点对象
@@ -28,19 +29,11 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
     }
 
     /** 链表头结点，头结点可存放数据也可不存放数据，这里选择存放数据 */
-    private Node<E> head;
+    Node<E> head;
 
     /** 链表尾结点 */
-    private Node<E> tail;
+    Node<E> tail;
 
-    /** 链表大小，初始大小为0 */
-    private int size=0;
-
-
-    @Override
-    public int size() {
-        return size;
-    }
 
     @Override
     public void add(E ele){
@@ -80,16 +73,13 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
         * */
         if(head==null){
             /*链表为空时，头结点初始化为一个新节点，并将尾结点指向头结点*/
-            head = new Node<>(ele,null);
-            tail=head;
+            initHead(ele);
         }else{
             /*头结点不为空即链表长度>1时*/
             //初始化新节点
             Node<E> newNode = new Node<>(ele,null);
-            //拿到尾结点
-            Node<E> lastNode = tail;
             //将尾结点的next指向新节点
-            lastNode.next=newNode;
+            tail.next=newNode;
             //更新尾结点，将其指向新节点
             tail=newNode;
         }
@@ -104,18 +94,21 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
     void linkFirst(E ele){
         if(head==null){
             /*链表为空时，头结点初始化为一个新节点，并将尾结点指向头结点*/
-            head = new Node<>(ele,null);
-            tail=head;
+            initHead(ele);
         }else{
             /*
             * 由于是单向链表。因此头插很简单
             * 拿到头结点，将头结点指向新节点
             * 并且该新的头结点的next指向旧的头结点
             * */
-            Node<E> firstNode = head;
-            head= new Node<>(ele,firstNode);
+            head = new Node<>(ele, head);
         }
         size++;
+    }
+
+    void initHead(E ele){
+        head = new Node<>(ele, null);
+        tail = head;
     }
 
     /**
@@ -182,7 +175,29 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
 
     @Override
     public void delete(int index){
-        remove(index);
+        unlinkNode(index);
+    }
+
+    @Override
+    public boolean remove(E ele) {
+        if(ele == null){
+            for(Node<E> node = head; node != null; node = node.next){
+                if(node.element == null){
+                    unlinkNode(node);
+                    //只删除第一个元素值相等的节点
+                    return true;
+                }
+            }
+        }else{
+            for(Node<E> node = head; node != null; node = node.next){
+                if(node.element.equals(ele)){
+                    unlinkNode(node);
+                    //只删除第一个元素值相等的节点
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     @Override
@@ -196,20 +211,24 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * 移除链表指定位置的节点
      * @param index         删除节点的位置索引
      */
-    private void remove(int index){
+    @Override
+    void unlinkNode(int index){
         //检验index是否合法
         checkIndex(index);
         Node<E> node = head;
+        //index为0时删除的是头结点，直接头结点下移一位
         if(index == 0){
-            //index为0时删除的是头结点，直接头结点下移一位
+            /*先将旧的head置为null，再指向新的head，此时旧的head等待GC*/
+            head = null;
             head = node.next;
-            node = null;
         }else{
             //先拿到 index-1 处的节点，即要删除的节点的上一个节点
             node = node(index-1);
             Node<E> delNode = node.next;
             if(index == size-1){
                 //如果删除的是尾结点，那么直接将尾结点指向删除节点的上一个节点，尾结点上移一位，并且next置为null
+                //旧的tail等待GC
+                tail = null;
                 tail = node;
                 tail.next = null;
             }else{
@@ -222,20 +241,40 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
         size--;
     }
 
-    private boolean hasNext(Node<E> node){
+    /*void unlinkNode(Node<E> node){
+        unlinkNode(getNodeIndex(node));
+    }*/
+
+    @Override
+    int getNodeIndex(Object node){
+        int indexCount = 0;
+        Node<E> h = head;
+        if(node == tail){
+            return size-1;
+        }
+        while (h != node){
+            h = h.next;
+            indexCount++;
+        }
+        return indexCount;
+    }
+
+    boolean hasNext(Node<E> node){
         return node.next != null;
     }
 
+    @Override
     Node<E> node(int index){
         Node<E> node = head;
+        int count = 0;
         /*遍历到index位置的node*/
-        for (int i = 0; i < index; i++) {
+        while (count++<index){
             /*
             * 调用该方法前必定先检查index值
             * 当该index是元素下标识，直接遍历到index处
             * 不需要再另外进行hasNext判断
             * */
-            node=node.next;
+            node = node.next;
         }
         return node;
     }
@@ -262,25 +301,6 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
             throw new RuntimeException("List is empty");
         }
 
-    }
-
-    @Override
-    public boolean isNotEmpty(){
-        return size!=0;
-    }
-
-    private boolean isElementIndex(int index){
-        return index>=0 && index<size;
-    }
-
-    private void checkIndex(int index){
-        if(!isElementIndex(index)){
-            outOfBoundsExp(index);
-        }
-    }
-
-    private void outOfBoundsExp(int index){
-        throw new IndexOutOfBoundsException("Index: "+index+"，Size: "+size);
     }
 
     /**
@@ -385,7 +405,7 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
                 //头插节点
                 linkFirst(node.element);
                 //移除已经头插的节点
-                remove(removeCount);
+                unlinkNode(removeCount);
                 //将中间节点指向下一个节点
                 currentHead = currentHead.next;
                 //删除计数自增1
@@ -455,7 +475,7 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * 链表合并，合并后的链表有序
      * @param list     合并的链表
      */
-    public void combination(UnidirectionalLinkedList<Integer> list){
+    public void combination(SingleLinkedList<Integer> list){
         //链表连接
         tail.next = (Node<E>) list.head;
         size+=list.size;
@@ -468,8 +488,8 @@ public class UnidirectionalLinkedList<E> implements ILinkedList<E>{
      * @param list2         合并链表2
      * @return              返回一个有序的整型链表
      */
-    public static UnidirectionalLinkedList<Integer> combination(UnidirectionalLinkedList<Integer> list1,UnidirectionalLinkedList<Integer> list2){
-        UnidirectionalLinkedList<Integer> targetList =  new UnidirectionalLinkedList<>();
+    public static SingleLinkedList<Integer> combination(SingleLinkedList<Integer> list1, SingleLinkedList<Integer> list2){
+        SingleLinkedList<Integer> targetList =  new SingleLinkedList<>();
         /*
         * 用于直接用链表指针连接链表会导致list1结构被修改
         * 因此需要遍历连链表的值再进行排序合并

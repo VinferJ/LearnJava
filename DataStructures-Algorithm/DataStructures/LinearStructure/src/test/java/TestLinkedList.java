@@ -1,11 +1,9 @@
-import array.SparseArray;
 import list.BidirectionalLinkedList;
-import list.UnidirectionalLinkedList;
+import list.CircleLinkedList;
+import list.SingleLinkedList;
 import org.junit.Test;
 
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 
 /**
  * @author Vinfer
@@ -54,49 +52,49 @@ public class TestLinkedList {
     }
 
     @Test
-    public void testUniList(){
-        UnidirectionalLinkedList<Integer> uList = new UnidirectionalLinkedList<>();
+    public void testSList(){
+        SingleLinkedList<Integer> sList = new SingleLinkedList<>();
         for (int i = 5; i >0; i--) {
-            uList.addFirst(i);
+            sList.addFirst(i);
         }
-        System.out.println(uList);
-        uList.reverse();
+        System.out.println(sList);
+        sList.reverse();
         //5 4 3 2 1
-        System.out.println(uList);
-        System.out.println(uList.get(0));
-        uList.delete(0);
+        System.out.println(sList);
+        System.out.println(sList.get(0));
+        sList.delete(0);
         //4 3 2 1
-        System.out.println(uList);
-        uList.delete(3);
+        System.out.println(sList);
+        sList.delete(3);
         //4 3 2
-        System.out.println(uList);
-        uList.set(0,666);
+        System.out.println(sList);
+        sList.set(0,666);
         //666 3 2
-        System.out.println(uList);
-        uList.add(2, 998);
+        System.out.println(sList);
+        sList.add(2, 998);
         //666 3 998 2
-        System.out.println(uList);
-        uList.add(0, 996);
+        System.out.println(sList);
+        sList.add(0, 996);
         //996 666 3 998 2
-        System.out.println(uList);
-        uList.delete(2);
+        System.out.println(sList);
+        sList.delete(2);
         //996 666 998 2
-        uList.iterate();
-        System.out.println(uList.size());
-        uList.reverseByArr();
-        System.out.println(uList);
-        uList.reverseByLinkFirst();
-        System.out.println(uList);
-        uList.iterateByDesc(0);
-        uList.descIterate();
-        uList.sort();
-        System.out.println(uList);
+        sList.iterate();
+        System.out.println(sList.size());
+        sList.reverseByArr();
+        System.out.println(sList);
+        sList.reverseByLinkFirst();
+        System.out.println(sList);
+        sList.iterateByDesc(0);
+        sList.descIterate();
+        sList.sort();
+        System.out.println(sList);
     }
 
     @Test
-    public void testUList2(){
-        UnidirectionalLinkedList<Integer> list1 = new UnidirectionalLinkedList<>();
-        UnidirectionalLinkedList<Integer> list2 = new UnidirectionalLinkedList<>();
+    public void testSList2(){
+        SingleLinkedList<Integer> list1 = new SingleLinkedList<>();
+        SingleLinkedList<Integer> list2 = new SingleLinkedList<>();
         list1.add(156);
         list1.add(4);
         list1.add(6);
@@ -108,7 +106,7 @@ public class TestLinkedList {
         /*System.out.println(list1);
         list1.combination(list2);
         System.out.println(list1);*/
-        UnidirectionalLinkedList<Integer> combination = UnidirectionalLinkedList.combination(list1, list2);
+        SingleLinkedList<Integer> combination = SingleLinkedList.combination(list1, list2);
         System.out.println(list1);
         System.out.println(combination);
     }
@@ -120,6 +118,30 @@ public class TestLinkedList {
         linkedList.add(0, 667);
         linkedList.add(1, 668);
         System.out.println(linkedList);
+    }
+
+    @Test
+    public void testCList(){
+        CircleLinkedList<Integer> circleList = new CircleLinkedList<>();
+        for (int i = 0; i < 10; i++) {
+            circleList.add(i);
+        }
+        System.out.println(circleList);
+        /*for (int i = 5; i < 10; i++) {
+            circleList.addFirst(i);
+        }
+        System.out.println(circleList);
+        circleList.iterate();
+        circleList.delete(0);
+        circleList.delete(circleList.size()-1);
+        circleList.delete(2);
+        System.out.println("\n"+circleList);
+        System.out.println(circleList.size());*/
+        int[] ints = circleList.resolveJoseph(4, 3);
+        System.out.println("出队序列依次为：");
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(i==ints.length-1?ints[i]+"\n":ints[i]+" => ");
+        }
     }
 
 }

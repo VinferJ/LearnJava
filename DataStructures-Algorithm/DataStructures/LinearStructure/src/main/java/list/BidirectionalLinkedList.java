@@ -5,7 +5,7 @@ package list;
  * @description     双向链表
  * @date 2020-07-20  03:23
  **/
-public class BidirectionalLinkedList<E> implements ILinkedList<E>{
+public class BidirectionalLinkedList<E> extends AbstractLinkedList<E> implements ILinkedList<E>{
 
     /**
      * 链表节点对象
@@ -38,8 +38,6 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
     /** 尾结点 */
     private Node<E> tail;
 
-    /** 链表大小，初始为0*/
-    private int size=0;
 
     @Override
     public void add(E ele){
@@ -78,6 +76,28 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
     }
 
     @Override
+    public boolean remove(E ele) {
+        if(ele == null){
+            for(Node<E> node = head; node != null; node = node.next){
+                if(node.element == null){
+                    unlinkNode(node);
+                    //只删除第一个元素值相等的节点
+                    return true;
+                }
+            }
+        }else{
+            for(Node<E> node = head; node != null; node = node.next){
+                if(node.element.equals(ele)){
+                    unlinkNode(node);
+                    //只删除第一个元素值相等的节点
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public void set(int index, E ele){
         checkIndex(index);
         node(index).element = ele;
@@ -92,6 +112,20 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    int getNodeIndex(Object node) {
+        int indexCount = 0;
+        Node<E> h = head;
+        if(node == tail){
+            return size-1;
+        }
+        while (h != node){
+            h = h.next;
+            indexCount++;
+        }
+        return indexCount;
     }
 
     /**
@@ -199,6 +233,7 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
      * 移除链表非头尾的指定位置的一个节点
      * @param index     移除的节点位置索引
      */
+    @Override
     void unlinkNode(int index){
         //先拿到要移除的节点的上一个节点
         Node<E> node = node(index - 1);
@@ -273,17 +308,13 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
         }
     }
 
-    @Override
-    public boolean isNotEmpty(){
-        return size != 0;
-    }
-
     /**
      * 根基索引值获取指定节点
      * @param index         指定的节点位置索引
      * @return              返回一个双链表节点
      */
-    private Node<E> node(int index){
+    @Override
+    Node<E> node(int index){
         //获取头结点
         Node<E> node = head;
         //遍历到index处
@@ -299,16 +330,6 @@ public class BidirectionalLinkedList<E> implements ILinkedList<E>{
 
     private boolean hasPrev(Node<E> node){
         return node.prev!=null;
-    }
-
-    private boolean isElementIndex(int index){
-        return index>=0 && index<size;
-    }
-
-    private void checkIndex(int index){
-        if(!isElementIndex(index)){
-            throw new IndexOutOfBoundsException("Index: "+index+"，Size: "+size);
-        }
     }
 
 }

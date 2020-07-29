@@ -6,5 +6,4 @@ public class Singleton {
 
     /*单例模式*/
 
-
 }

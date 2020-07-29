@@ -2,59 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/target/classes/sort/SimpleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/DataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/LinearStructure.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/CircleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/ILinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/CircleQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/IQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/LinkedQueue$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/LinkedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/AbstractLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/main/java/sort/SimpleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SimpleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/AbstractSparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/array/AbstractSparseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/array/SparseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/array/SparseArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/array/SparseArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/IQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/IQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/main/java/queue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/src/test/java/TestSparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestSparseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/AbstractSparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/array/AbstractSparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/array/SparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/array/SparseArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/array/SparseArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinearStructure/target/test-classes/TestSparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestSparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/main/java/util/ObjectSizeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/src/main/java/util/ObjectSizeTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/UnidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/CircleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/CircleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/UnidirectionalLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -126,12 +88,22 @@
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestQueue.testCycleQueue">
+  <component name="RunManager" selected="JUnit.TestLinkedList.testCList">
     <configuration name="TestLinkedList.testBidList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinearStructure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
       <option name="METHOD_NAME" value="testBidList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList.testCList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinearStructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="testCList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,16 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQueue.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinearStructure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestQueue" />
-      <option name="METHOD_NAME" value="testArrayQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestQueue.testCycleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinearStructure" />
       <option name="PACKAGE_NAME" value="" />
@@ -179,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQueue.testCycleQueue" />
-        <item itemvalue="JUnit.TestLinkedList.testUList2" />
+        <item itemvalue="JUnit.TestLinkedList.testCList" />
         <item itemvalue="JUnit.TestLinkedList.testUniList" />
+        <item itemvalue="JUnit.TestLinkedList.testUList2" />
+        <item itemvalue="JUnit.TestQueue.testCycleQueue" />
         <item itemvalue="JUnit.TestLinkedList.testBidList" />
-        <item itemvalue="JUnit.TestQueue.testArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +177,10 @@
       <workItem from="1595465559229" duration="17151000" />
       <workItem from="1595506449392" duration="1450000" />
       <workItem from="1595555069279" duration="17435000" />
-      <workItem from="1595766820836" duration="577000" />
+      <workItem from="1595766820836" duration="1500000" />
+      <workItem from="1595896485769" duration="303000" />
+      <workItem from="1595896804125" duration="25494000" />
+      <workItem from="1595983266053" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -238,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595331318209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#rebuild project structure&#10;1. 重建了项目结构&#10;2. 新增了设计模式模块">
+      <created>1595767471752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595767471752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +220,8 @@
     <MESSAGE value="#init project" />
     <MESSAGE value="#update project&#10;1. 更新了数组队列数据结构+测试&#10;2. 补全和优化了单向链表和双向链表的api" />
     <MESSAGE value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
+    <MESSAGE value="#rebuild project structure&#10;1. 重建了项目结构&#10;2. 新增了设计模式模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="#rebuild project structure&#10;1. 重建了项目结构&#10;2. 新增了设计模式模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="140" key="#Inspections" timestamp="1595558704973">
@@ -263,50 +236,54 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="597" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.960@0.0.1707.960" timestamp="1595767227942" />
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595471776801">
+    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595985402890">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595471776801" />
+    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595985402890" />
     <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595473528832">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.960@0.0.1707.960" timestamp="1595473528832" />
-    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1595331316576">
+    <state x="584" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595905049779">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1595331316576" />
+    <state x="584" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.960@0.0.1707.960" timestamp="1595905049779" />
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1595767469826">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1595767469826" />
     <state x="93" y="93" width="1521" height="775" key="DiffContextDialog" timestamp="1595595575288">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="93" y="93" width="1521" height="775" key="DiffContextDialog/0.0.1707.960@0.0.1707.960" timestamp="1595595575288" />
-    <state x="634" y="236" key="FileChooserDialogImpl" timestamp="1595338516695">
+    <state x="634" y="236" key="FileChooserDialogImpl" timestamp="1595940941867">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595338516695" />
-    <state width="1663" height="289" key="GridCell.Tab.0.bottom" timestamp="1595767092741">
+    <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595940941867" />
+    <state width="1663" height="262" key="GridCell.Tab.0.bottom" timestamp="1595931133934">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="289" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1595767092741" />
-    <state width="1663" height="289" key="GridCell.Tab.0.center" timestamp="1595767092740">
+    <state width="1663" height="262" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1595931133934" />
+    <state width="1663" height="262" key="GridCell.Tab.0.center" timestamp="1595931133934">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="289" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1595767092740" />
-    <state width="1663" height="289" key="GridCell.Tab.0.left" timestamp="1595767092740">
+    <state width="1663" height="262" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1595931133934" />
+    <state width="1663" height="262" key="GridCell.Tab.0.left" timestamp="1595931133934">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="289" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1595767092740" />
-    <state width="1663" height="289" key="GridCell.Tab.0.right" timestamp="1595767092740">
+    <state width="1663" height="262" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1595931133934" />
+    <state width="1663" height="262" key="GridCell.Tab.0.right" timestamp="1595931133934">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state width="1663" height="289" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1595767092740" />
-    <state x="334" y="56" key="SettingsEditor" timestamp="1595338965326">
+    <state width="1663" height="262" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1595931133934" />
+    <state x="334" y="56" key="SettingsEditor" timestamp="1595896787797">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="334" y="56" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1595338965326" />
-    <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595331321440">
+    <state x="334" y="56" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1595896787797" />
+    <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595767473396">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595331321440" />
+    <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595767473396" />
     <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595595575288">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
@@ -323,10 +300,10 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="510" y="221" key="run.anything.popup/0.0.1707.960@0.0.1707.960" timestamp="1595559178364" />
-    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1595558335803">
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1595940365854">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
-    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1595558335803" />
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1595940365854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
