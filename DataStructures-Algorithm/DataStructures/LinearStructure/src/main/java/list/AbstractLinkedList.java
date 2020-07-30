@@ -71,6 +71,17 @@ public abstract class AbstractLinkedList<E> implements ILinkedList<E>{
     }
 
     /**
+     * 清空整个链表，删除所有节点
+     */
+    @Override
+    public void emptyList(){
+        for (int i = 0; i < size; i++) {
+            unlinkFirst();
+        }
+        size = 0;
+    }
+
+    /**
      * 根据节点对象获取该节点的索引下标
      * @param node      链表节点对象
      * @return          返回节点对象的索引下标
@@ -100,6 +111,11 @@ public abstract class AbstractLinkedList<E> implements ILinkedList<E>{
     void unlinkNode(Object node){
         unlinkNode(getNodeIndex(node));
     }
+
+    /**
+     * 移除链表第一个节点
+     */
+    abstract void unlinkFirst();
 
     /**
      * 根据节点位置下标获取节点对象

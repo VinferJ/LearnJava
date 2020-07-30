@@ -98,6 +98,7 @@ public class TestLinkedList {
         list1.add(156);
         list1.add(4);
         list1.add(6);
+        list1.add(156);
         list1.add(536);
         list2.add(56);
         list2.add(141);
@@ -109,6 +110,27 @@ public class TestLinkedList {
         SingleLinkedList<Integer> combination = SingleLinkedList.combination(list1, list2);
         System.out.println(list1);
         System.out.println(combination);
+        list1.remove(156);
+        list1.delete(0);
+        System.out.println(list1);
+        list1.emptyList();
+        System.out.println(list1.isNotEmpty());
+        System.out.println(list1);
+    }
+
+    @Test
+    public void testSList3(){
+        SingleLinkedList<Integer> list = new SingleLinkedList<>();
+        list.add(1);
+        list.delete(0);
+        System.out.println(list);
+        list.add(1);
+        list.add(2);
+        list.delete(1);
+        System.out.println(list);
+        list.add(3);
+        list.emptyList();
+        System.out.println(list);
     }
 
     @Test

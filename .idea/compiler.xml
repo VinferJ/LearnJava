@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DataStructures-Algorithm" />
         <module name="LinearStructure" />
-        <module name="Exercises" />
-        <module name="Algorithms" />
         <module name="Creational" />
+        <module name="Algorithms" />
+        <module name="Exercises" />
       </profile>
     </annotationProcessing>
   </component>

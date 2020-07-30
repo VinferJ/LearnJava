@@ -145,7 +145,7 @@ public class CircleLinkedList<E> extends SingleLinkedList<E> {
             *
             *
             * */
-            exitArr[indexCount] = getNodeCurIndex(startNode);
+            exitArr[indexCount] = 0;
             indexCount++;
             //输出元素值
             System.out.print(this.size==1?startNode.element+"\n":startNode.element+" => ");

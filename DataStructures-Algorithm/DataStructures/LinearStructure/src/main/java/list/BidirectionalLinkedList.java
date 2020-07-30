@@ -204,14 +204,17 @@ public class BidirectionalLinkedList<E> extends AbstractLinkedList<E> implements
     /**
      * 移除链表头结点
      */
+    @Override
     void unlinkFirst(){
         //拿到头结点
         Node<E> node = head;
-        //将头结点指向下一个节点
-        head = head.next;
+        //旧的头结点置空，等待GC
+        head = null;
+        //更新头结点，将头结点指向下一个节点
+        head = node.next;
         //将新的头结点的prev置为null，与初始头结点断开
         head.prev = null;
-        //将初始头结点置为null，等待GC
+        //将结点指针置为null，等待GC
         node = null;
     }
 
@@ -221,11 +224,13 @@ public class BidirectionalLinkedList<E> extends AbstractLinkedList<E> implements
     void unlinkLast(){
         //拿到尾结点
         Node<E> node = tail;
-        //将尾结点指向前一个节点
-        tail = tail.prev;
+        //旧的尾结点置空，等待GC
+        tail = null;
+        //更新尾结点，将尾结点指向前一个节点
+        tail = node.prev;
         //将新的尾结点的next置为null，与初始尾结点断开
         tail.next = null;
-        //将初始尾结点置为null
+        //将节点指针置为null，等待GC
         node = null;
     }
 
@@ -250,6 +255,27 @@ public class BidirectionalLinkedList<E> extends AbstractLinkedList<E> implements
         delNode = null;
     }
 
+    /**
+     * 返回链表头元素，并移除链表头结点
+     * @return      返回链表头结点的元素值
+     */
+    public E pop(){
+        E element = head.element;
+        unlinkFirst();
+        /*只有一个节点时*/
+        if(head == null){
+            tail = null;
+        }
+        return element;
+    }
+
+    /**
+     * 返回链表头结点元素值，但不删除该节点
+     * @return      返回链表头结点元素值
+     */
+    public E peek(){
+        return head.element;
+    }
 
     @Override
     public void iterate(){

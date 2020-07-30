@@ -10,6 +10,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <modules>
+        <module>Algorithms</module>
+        <module>DataStructures</module>
+    </modules>
+
     <artifactId>DataStructures-Algorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
 

@@ -69,5 +69,9 @@ public interface ILinkedList<E> {
      */
     void iterate();
 
+    /**
+     * 清空整个链表，删除所有节点
+     */
+    void emptyList();
 
 }

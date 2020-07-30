@@ -207,10 +207,6 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
         node(index).element = ele;
     }
 
-    /**
-     * 移除链表指定位置的节点
-     * @param index         删除节点的位置索引
-     */
     @Override
     void unlinkNode(int index){
         //检验index是否合法
@@ -218,9 +214,7 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
         Node<E> node = head;
         //index为0时删除的是头结点，直接头结点下移一位
         if(index == 0){
-            /*先将旧的head置为null，再指向新的head，此时旧的head等待GC*/
-            head = null;
-            head = node.next;
+            unlinkFirst();
         }else{
             //先拿到 index-1 处的节点，即要删除的节点的上一个节点
             node = node(index-1);
@@ -241,9 +235,16 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
         size--;
     }
 
-    /*void unlinkNode(Node<E> node){
-        unlinkNode(getNodeIndex(node));
-    }*/
+    @Override
+    void unlinkFirst() {
+        Node<E> h = head;
+        head = null;
+        head = h.next;
+        /*只有一个节点时*/
+        if(head == null){
+            tail = null;
+        }
+    }
 
     @Override
     int getNodeIndex(Object node){
@@ -285,17 +286,10 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
      */
     public E pop(){
         if(isNotEmpty()){
-            Node<E> node = head;
             //拿到当前头结点的节点元素值
-            E ele = node.element;
-            //将头结点指向下一个节点
-            head = node.next;
-            //将旧的头结点置为null，等待GC
-            node = null;
-            if(head==null){
-                tail = null;
-            }
-            size--;
+            E ele = head.element;
+            //移除头结点
+            unlinkFirst();
             return ele;
         }else{
             throw new RuntimeException("List is empty");
