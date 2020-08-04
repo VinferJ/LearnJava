@@ -12,6 +12,7 @@
         <module>DataStructures-Algorithm</module>
         <module>Exercises</module>
         <module>DesignPattern</module>
+        <module>network-programming</module>
     </modules>
 
     <dependencies>

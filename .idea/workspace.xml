@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/stack/AbstractStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/stack/IStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/stack/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network-programming/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network-programming/src/main/java/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network-programming/src/main/java/bio/BioServerSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network-programming/src/main/java/nio/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network-programming/src/test/java/TestBio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/Algorithms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/target/classes/sort/SimpleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/target/classes/sort/SimpleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/DataStructures.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/LinearStructure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/AbstractLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/AbstractLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/BidirectionalLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/CircleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/ILinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/LinkedQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/BidirectionalLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/CircleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/CircleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/ILinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/list/ILinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/LinkedQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/LinkedQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +42,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="F:\JavaWorkspace\DataStructures-Algorithms\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Developer Tools\Apache-Maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Developer Tools\Apache-Maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ewS8H7p2ZoS1Mtvf19dG4Bg4Fz" />
@@ -72,7 +56,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -80,28 +63,38 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSE Study/part6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\JavaWorkspace\LearnJava\DataStructures-Algorithm" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\test\java" />
+      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\test\java" />
-      <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaWorkspace\LearnJava\DataStructures-Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="JUnit.TestBio.connect1">
+    <configuration name="BioServerSingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bio.BioServerSingle" />
+      <module name="network-programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.Calculator" />
       <module name="Exercises" />
@@ -115,11 +108,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.testCList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinearStructure" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="network-programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBio.connect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="network-programming" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
-      <option name="METHOD_NAME" value="testCList" />
+      <option name="MAIN_CLASS_NAME" value="TestBio" />
+      <option name="METHOD_NAME" value="connect1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,48 +135,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList.testSList3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinearStructure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
-      <option name="METHOD_NAME" value="testSList3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStack.testStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinearStructure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="METHOD_NAME" value="testStack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="JUnit.TestStack.testStack" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.BioServerSingle" />
+        <item itemvalue="JUnit.TestBio.connect1" />
         <item itemvalue="JUnit.TestLinkedList.testSList2" />
-        <item itemvalue="JUnit.TestLinkedList.testSList3" />
-        <item itemvalue="JUnit.TestLinkedList.testCList" />
+        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -198,6 +167,11 @@
       <workItem from="1595896804125" duration="25494000" />
       <workItem from="1595983266053" duration="18780000" />
       <workItem from="1596064911194" duration="31490000" />
+      <workItem from="1596278946262" duration="1593000" />
+      <workItem from="1596370455906" duration="2116000" />
+      <workItem from="1596388038016" duration="2950000" />
+      <workItem from="1596392315457" duration="3401000" />
+      <workItem from="1596538930941" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -238,7 +212,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#init project" />
@@ -261,10 +235,15 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="597" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.960@0.0.1707.960" timestamp="1595767227942" />
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1595996861634">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="494" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1596395201612">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="494" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1596395201612" />
     <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595996861634" />
+    <state x="308" y="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596393800388">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="308" y="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1596393800388" />
     <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595473528832">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
@@ -281,29 +260,35 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="93" y="93" width="1521" height="775" key="DiffContextDialog/0.0.1707.960@0.0.1707.960" timestamp="1595595575288" />
-    <state x="634" y="236" key="FileChooserDialogImpl" timestamp="1595940941867">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="475" y="177" key="FileChooserDialogImpl" timestamp="1596392856782">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="475" y="177" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1596392856782" />
     <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595940941867" />
-    <state width="1663" height="217" key="GridCell.Tab.0.bottom" timestamp="1596123877458">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state width="1237" height="396" key="GridCell.Tab.0.bottom" timestamp="1596394878452">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="396" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1596394878452" />
     <state width="1663" height="217" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1663" height="217" key="GridCell.Tab.0.center" timestamp="1596123877458">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state width="1237" height="396" key="GridCell.Tab.0.center" timestamp="1596394878451">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="396" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1596394878451" />
     <state width="1663" height="217" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1663" height="217" key="GridCell.Tab.0.left" timestamp="1596123877458">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state width="1237" height="396" key="GridCell.Tab.0.left" timestamp="1596394878451">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="396" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1596394878451" />
     <state width="1663" height="217" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1663" height="217" key="GridCell.Tab.0.right" timestamp="1596123877458">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state width="1237" height="396" key="GridCell.Tab.0.right" timestamp="1596394878451">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="396" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1596394878451" />
     <state width="1663" height="217" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state x="334" y="56" width="1053" height="769" key="SettingsEditor" timestamp="1596015390724">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="250" y="13" width="914" height="707" key="SettingsEditor" timestamp="1596278998316">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1596278998316" />
     <state x="334" y="56" width="1053" height="769" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1596015390724" />
     <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595985742084">
       <screen x="0" y="0" width="1707" height="960" />
@@ -317,17 +302,19 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.960@0.0.1707.960" timestamp="1595239594052" />
-    <state x="230" y="96" key="new project wizard" timestamp="1595767363913">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="56" y="0" key="new project wizard" timestamp="1596388105968">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1596388105968" />
     <state x="230" y="96" key="new project wizard/0.0.1707.960@0.0.1707.960" timestamp="1595767363913" />
     <state x="510" y="221" key="run.anything.popup" timestamp="1595559178364">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="510" y="221" key="run.anything.popup/0.0.1707.960@0.0.1707.960" timestamp="1595559178364" />
-    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1596119637721">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="387" y="154" width="672" height="509" key="search.everywhere.popup" timestamp="1596391576272">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="387" y="154" width="672" height="509" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1596391576272" />
     <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1596119637721" />
   </component>
   <component name="XDebuggerManager">

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DataStructures-Algorithm" />
-        <module name="LinearStructure" />
         <module name="Creational" />
-        <module name="Algorithms" />
         <module name="Exercises" />
+        <module name="Algorithms" />
+        <module name="network-programming" />
+        <module name="LinearStructure" />
       </profile>
     </annotationProcessing>
   </component>
