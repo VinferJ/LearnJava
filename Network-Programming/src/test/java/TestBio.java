@@ -1,3 +1,4 @@
+import bio.Client;
 import org.junit.Test;
 
 /**
@@ -10,7 +11,7 @@ public class TestBio {
 
     @Test
     public void connect1(){
-        Client.connectToServer();
+        //Client.connectToServer();
     }
 
 

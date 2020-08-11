@@ -1,4 +1,4 @@
-package nio;
+package bio.thread;
 
 import java.io.IOException;
 import java.io.InputStream;

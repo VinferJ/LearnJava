@@ -1,6 +1,6 @@
-package bio;
+package bio.single;
 
-import nio.ServerThread;
+import bio.thread.ServerThread;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ import java.net.Socket;
 /**
  *
  * 基于BIO 模型的单线程版服务端
- * @author by 江文发
+ * @author by Vinfer
  * @date 2020-08-03    01:09
  **/
 public class BioServerSingle {
@@ -29,8 +29,7 @@ public class BioServerSingle {
             serverSocket = new ServerSocket(8081);
             while (true){
                 Socket accept = serverSocket.accept();
-                new Thread(new ServerThread(accept)).start();
-                /*inputStream = accept.getInputStream();
+                inputStream = accept.getInputStream();
                 outputStream = accept.getOutputStream();
                 outputStream.write((accept.getInetAddress().toString() + ": connection success").getBytes());
                 int len = 0;
@@ -40,7 +39,7 @@ public class BioServerSingle {
                     msg.append(new String(buffer));
                     System.out.println("message from client :"+msg.toString());
                     outputStream.write("read success".getBytes());
-                }*/
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();

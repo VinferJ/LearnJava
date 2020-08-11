@@ -1,9 +1,12 @@
+package bio;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
 /**
+ * BIO客户端
  * @author by 江文发
  * @date 2020-08-03    02:22
  **/
@@ -21,7 +24,7 @@ public class Client {
         Scanner scanner = new Scanner(System.in);
         try {
             while (true){
-                clientSocket = new Socket("192.168.31.172",8081);
+                clientSocket = new Socket("localhost",8080);
                 in = clientSocket.getInputStream();
                 out = clientSocket.getOutputStream();
                 byte[] buffer = new byte[1024];
