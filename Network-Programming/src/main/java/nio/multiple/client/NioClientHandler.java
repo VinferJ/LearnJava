@@ -73,6 +73,9 @@ public class NioClientHandler implements Runnable{
                     try {
                         eventHandler(key);
                     }catch (Exception e){
+                        /*
+                        * 触发异常手动取消事件并关闭该客户端的通道连接
+                        * */
                         if (key != null) {
                             key.cancel();
                             if (key.channel() != null) {
@@ -97,10 +100,12 @@ public class NioClientHandler implements Runnable{
     private void eventHandler(SelectionKey key) throws IOException {
         if(key.isValid()){
             if(key.isConnectable()){
+                /*继续完成连接*/
                 if(socketChannel.finishConnect()){
                     System.out.println("connection establish，server："+HOST_NAME+":"+PORT);
                     socketChannel.register(selector, SelectionKey.OP_WRITE);
                 }else{
+                    //如果仍旧无法连接成功，那么推出程序
                     System.exit(1);
                 }
             }
@@ -127,17 +132,18 @@ public class NioClientHandler implements Runnable{
         }
     }
 
-    /*
-     * 如果在这里阻塞进行持续向服务端发送消息
-     * 那么在最后退出while循环时，会一次读取到多条服务端回应的数据
-     * 每次发送数据服务端都会回应数据，这些数据会暂存在缓存区中
-     * 但最后处理read时会一次全部读取，读取服务端响应应该直接在while中读
-     * */
 
     private void writeHandler(SelectionKey key) throws IOException {
         SocketChannel sc = (SocketChannel) key.channel();
         Scanner scanner = new Scanner(System.in);
         ByteBuffer writeBuffer;
+
+        /*
+         * 如果在这里阻塞进行持续向服务端发送消息
+         * 那么在最后退出while循环时，会一次读取到多条服务端回应的数据
+         * 每次发送数据服务端都会回应数据，这些数据会暂存在缓存区中
+         * 但最后处理read时会一次全部读取，读取服务端响应应该直接在while中读
+         * */
         while (true){
             System.out.println("set your option: [0-exit] [1-continue]");
             if(scanner.nextInt() == 1){

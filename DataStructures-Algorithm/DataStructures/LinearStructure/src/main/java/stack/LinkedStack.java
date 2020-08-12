@@ -28,4 +28,6 @@ public class LinkedStack<E> extends AbstractStack<E> implements IStack<E> {
     public void clear() {
         clearList();
     }
+
+
 }

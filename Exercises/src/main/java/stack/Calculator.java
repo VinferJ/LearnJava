@@ -150,7 +150,7 @@ public class Calculator {
     }
 
     static boolean expHasNext(int length,int curIndex){
-        return curIndex+1<=length;
+        return curIndex+1<=length-1;
     }
 
     static void checkExpression(String[] expression){
@@ -162,7 +162,7 @@ public class Calculator {
         * 3. 如果表达式包含非法字符，那么表达式非法
         * */
         if(isOperator(lastEle) && !lastEle.equals(RIGHT_BRACKETS)){
-            invalidException("end with operator which is not a ')'");
+            invalidException("end with operator but it is not a ')'");
         }
         if(isOperator(firstEle)){
             switch (firstEle){
@@ -170,7 +170,7 @@ public class Calculator {
                 case "-":
                 case "(":
                     break;
-                default:invalidException("start with operator which is not a '(' or '+' or '-'");
+                default:invalidException("start with operator but it is not a '(' or '+' or '-'");
             }
         }
         String numberAndOperator = "0123456789+-*/().";
@@ -277,6 +277,13 @@ public class Calculator {
         numberStack.push(String.valueOf(getCalculateResult(num1, num2, operator)));
     }
 
+    /**
+     * 获取两个操作数的运算值
+     * @param num1          左操作数
+     * @param num2          右操作数
+     * @param operator      操作运算符
+     * @return              返回计算结果
+     */
     static double getCalculateResult(double num1, double num2, String operator){
         /*num2是后出栈的元素，运算位置需要在num1的左边*/
         switch (operator){
