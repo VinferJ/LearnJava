@@ -22,14 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1. 新增了">
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/recursion/EightQueensIssue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/recursion/MazeIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1. 新增了递归算法和迷宫问题的练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/recursion/EightQueensIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/recursion/EightQueensIssue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,10 +92,16 @@
       <recent name="F:\JavaWorkspace\LearnJava\DataStructures-Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="network-programming" />
+  <component name="RunManager" selected="Application.EightQueensIssue">
+    <configuration name="EightQueensIssue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.EightQueensIssue" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,13 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EightQueensIssue" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.MazeIssue" />
         <item itemvalue="JUnit.TestLinkedList.testSList2" />
         <item itemvalue="JUnit.TestBio.connect1" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +203,8 @@
       <workItem from="1596392315457" duration="3401000" />
       <workItem from="1596538930941" duration="270000" />
       <workItem from="1599050290055" duration="5403000" />
-      <workItem from="1599055757942" duration="1126000" />
+      <workItem from="1599055757942" duration="6323000" />
+      <workItem from="1599062680062" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -237,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595985740291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#update&#10;1. 新增了递归算法和迷宫问题的练习">
+      <created>1599057106335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599057106335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +272,8 @@
     <MESSAGE value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
     <MESSAGE value="#rebuild project structure&#10;1. 重建了项目结构&#10;2. 新增了设计模式模块" />
     <MESSAGE value="#update&#10;1. 重构了链表的设计模式，使用模板方法进行设计&#10;2. 链表新增了部分api&#10;3. 完成了环形链表编写以及约瑟夫问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1. 重构了链表的设计模式，使用模板方法进行设计&#10;2. 链表新增了部分api&#10;3. 完成了环形链表编写以及约瑟夫问题" />
+    <MESSAGE value="#update&#10;1. 新增了递归算法和迷宫问题的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1. 新增了递归算法和迷宫问题的练习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="140" key="#Inspections" timestamp="1595558704973">
@@ -307,34 +319,35 @@
     </state>
     <state x="475" y="177" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1596392856782" />
     <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595940941867" />
-    <state width="1237" height="246" key="GridCell.Tab.0.bottom" timestamp="1599056769541">
+    <state width="1237" height="337" key="GridCell.Tab.0.bottom" timestamp="1599063344343">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="246" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599056769541" />
+    <state width="1237" height="337" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599063344343" />
     <state width="1663" height="217" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="246" key="GridCell.Tab.0.center" timestamp="1599056769540">
+    <state width="1237" height="337" key="GridCell.Tab.0.center" timestamp="1599063344343">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="246" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599056769540" />
+    <state width="1237" height="337" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599063344343" />
     <state width="1663" height="217" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="246" key="GridCell.Tab.0.left" timestamp="1599056769540">
+    <state width="1237" height="337" key="GridCell.Tab.0.left" timestamp="1599063344343">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="246" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599056769540" />
+    <state width="1237" height="337" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599063344343" />
     <state width="1663" height="217" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="246" key="GridCell.Tab.0.right" timestamp="1599056769540">
+    <state width="1237" height="337" key="GridCell.Tab.0.right" timestamp="1599063344343">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="246" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599056769540" />
+    <state width="1237" height="337" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599063344343" />
     <state width="1663" height="217" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
     <state x="250" y="13" width="914" height="707" key="SettingsEditor" timestamp="1599050263222">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1599050263222" />
     <state x="334" y="56" width="1053" height="769" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1596015390724" />
-    <state x="446" y="210" key="Vcs.Push.Dialog.v2" timestamp="1595985742084">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599057115096">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599057115096" />
     <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595985742084" />
     <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1596012552259">
       <screen x="0" y="0" width="1707" height="960" />
