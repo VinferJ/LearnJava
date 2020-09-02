@@ -9,6 +9,7 @@
         <module name="Creational" />
         <module name="Exercises" />
         <module name="Algorithms" />
+        <module name="network-programming" />
         <module name="Network-Programming" />
         <module name="LinearStructure" />
       </profile>
