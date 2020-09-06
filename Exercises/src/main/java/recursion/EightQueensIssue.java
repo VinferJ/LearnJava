@@ -50,12 +50,16 @@ public class EightQueensIssue {
         System.out.println();
     }
 
-    private static void placeNextQueen(int rowIndex){
+    /**
+     * 放置第n个皇后
+     * @param n     第n个皇后
+     */
+    private static void placeNextQueen(int n){
         /*
-        * 如果行下标与皇后数相等，意味着8个皇后已经放置完成，已经拿到一组放置解
+        * 如果n与皇后数相等，意味着8个皇后已经放置完成，已经拿到一组放置解
         * 此时对该组放置解进行打印并返回
         * */
-        if(rowIndex == QUEEN_NUM){
+        if(n == QUEEN_NUM){
             printResultArr();
             return;
         }
@@ -65,14 +69,14 @@ public class EightQueensIssue {
         for (int i = 0; i < QUEEN_NUM; i++) {
             /*
              * 先把第n个皇后，放置到该行的第一列中(i=0即第一列)，
-             * 然后进行判断，放置下一个皇后
+             * 然后进行判断，放置下一个皇后，当前的行下标与n相等
              * */
-            RESULT_ARR[rowIndex] = i;
+            RESULT_ARR[n] = i;
             /*
              * 对当前皇后放置的位置进行判断
              * 如果符合放置规则，那么放置下一个皇后
              * */
-            if(placeable(rowIndex)){
+            if(placeable(n)){
                 /*
                  * 放置下一个皇后，进入递归调用
                  * 当进入一个新的递归时，这个递归中又会有一个for循环作为放置逻辑处理
@@ -81,7 +85,7 @@ public class EightQueensIssue {
                  * 又会在该循环中继续找到另外一个满足的放置位置
                  * 直到找到了所有的在第一个皇后放置在第n行第一列的所有放置解
                  * */
-                placeNextQueen(rowIndex+1);
+                placeNextQueen(n+1);
             }
             /*
              * 位置判断都不满足放置条件时
@@ -92,21 +96,21 @@ public class EightQueensIssue {
         }
     }
 
-    private static boolean placeable(int position){
+    private static boolean placeable(int n){
         /*
-        * 要与前面所有已放置的皇后进行判断
+        * 要与前面所有已放置的n个皇后进行判断
         * */
-        for (int i = 0; i < position; i++) {
+        for (int i = 0; i < n; i++) {
             /*
             * 由于每次传入的放置位置都是在下一行，因此不需要判断是否为同一行
             * 判断是否在同一列，值相等即在同一列：
-            *   RESULT_ARR[i] == RESULT_ARR[position]
+            *   RESULT_ARR[i] == RESULT_ARR[n]
             * 判断是否在同一斜线上：
-            *   Math.abs(position - i) == Math.abs(RESULT_ARR[position] - RESULT_ARR[i])
+            *   Math.abs(n - i) == Math.abs(RESULT_ARR[n] - RESULT_ARR[i])
             *
             * */
-            if(RESULT_ARR[i] == RESULT_ARR[position] ||
-            Math.abs(position - i) == Math.abs(RESULT_ARR[position] - RESULT_ARR[i])){
+            if(RESULT_ARR[i] == RESULT_ARR[n] ||
+            Math.abs(n - i) == Math.abs(RESULT_ARR[n] - RESULT_ARR[i])){
                 //存在冲突返回false
                 return false;
             }

@@ -1,7 +1,7 @@
 package list;
 
 
-import sort.SimpleSort;
+import sort.SwappingSort;
 
 /**
  * @description         单链表
@@ -454,7 +454,7 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
                 eleArr[i] = (Integer) pop();
             }
             /*冒泡排序*/
-            SimpleSort.bubbleSort(eleArr);
+            SwappingSort.bubbleSort(eleArr);
             for (int i = 0; i < len; i++) {
                 linkLast((E) eleArr[i]);
             }
@@ -499,7 +499,7 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
             indexCount++;
         }
         /*冒泡排序*/
-        SimpleSort.bubbleSort(eleArr);
+        SwappingSort.bubbleSort(eleArr);
         for (int i = 0; i < len; i++) {
             targetList.linkLast(eleArr[i]);
         }

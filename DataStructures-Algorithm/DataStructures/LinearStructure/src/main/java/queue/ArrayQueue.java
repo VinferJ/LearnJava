@@ -7,9 +7,9 @@ package queue;
  **/
 public class ArrayQueue<E> implements IQueue<E>{
 
-    private static final int DEFAULT_MAX_CAPACITY=Integer.MAX_VALUE;
+    private static final int DEFAULT_MAX_CAPACITY=Integer.MAX_VALUE/10000;
 
-    private int size;
+    private final int size;
 
     private int frontPointer=-1;
 
