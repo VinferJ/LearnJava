@@ -28,6 +28,7 @@ public class TestBinTree {
         binTree.addLeftChild(secondRight, "jeve");
         binTree.levelTraversal();
         System.out.println(binTree.size());
+
     }
 
 }

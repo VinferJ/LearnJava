@@ -22,32 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1. 新增了八皇后问题算法练习">
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/InsertingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SelectingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SwappingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AbstractBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AvlTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinSearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SimpleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/target/classes/sort/SimpleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/CircleQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/recursion/EightQueensIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/recursion/EightQueensIssue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +71,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -175,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBinTree" />
         <item itemvalue="JUnit.TestQueue.testArrayQueue" />
-        <item itemvalue="Application.BucketSort" />
+        <item itemvalue="Application.TestBinTree" />
         <item itemvalue="Application.SwappingSort" />
         <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BucketSort" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +197,9 @@
       <workItem from="1599244830479" duration="2952000" />
       <workItem from="1599272107613" duration="15368000" />
       <workItem from="1599332249551" duration="1010000" />
-      <workItem from="1599411927565" duration="602000" />
+      <workItem from="1599411927565" duration="689000" />
+      <workItem from="1599414635651" duration="72000" />
+      <workItem from="1599414823489" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -271,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599063570247</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现">
+      <created>1599414584791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599414584791</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +283,8 @@
     <MESSAGE value="#update&#10;1. 重构了链表的设计模式，使用模板方法进行设计&#10;2. 链表新增了部分api&#10;3. 完成了环形链表编写以及约瑟夫问题" />
     <MESSAGE value="#update&#10;1. 新增了递归算法和迷宫问题的练习" />
     <MESSAGE value="#update&#10;1. 新增了八皇后问题算法练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1. 新增了八皇后问题算法练习" />
+    <MESSAGE value="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="140" key="#Inspections" timestamp="1595558704973">
@@ -368,15 +355,15 @@
     </state>
     <state width="1237" height="316" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599333258738" />
     <state width="1663" height="217" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state x="250" y="13" width="914" height="707" key="SettingsEditor" timestamp="1599100696543">
+    <state x="250" y="13" width="914" height="707" key="SettingsEditor" timestamp="1599414960537">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1599100696543" />
+    <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1599414960537" />
     <state x="334" y="56" width="1053" height="769" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1596015390724" />
-    <state x="334" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599063581402">
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599414587706">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="334" y="158" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599063581402" />
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599414587706" />
     <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595985742084" />
     <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1596012552259">
       <screen x="0" y="0" width="1707" height="960" />
