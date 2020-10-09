@@ -3,12 +3,15 @@ package list;
 
 import sort.SwappingSort;
 
+import java.io.Serializable;
+
 /**
  * @description         单链表
  * @author Vinfer
  * @date 2020-07-14  01:54
  **/
-public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinkedList<E>{
+public class SingleLinkedList<E> extends AbstractLinkedList<E>
+        implements ILinkedList<E>{
 
     /**
      * 链表节点对象
@@ -78,10 +81,12 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
             /*头结点不为空即链表长度>1时*/
             //初始化新节点
             Node<E> newNode = new Node<>(ele,null);
-            //将尾结点的next指向新节点
-            tail.next=newNode;
+            //缓存尾结点
+            Node<E> t = tail;
             //更新尾结点，将其指向新节点
             tail=newNode;
+            //将旧的尾结点的next指向新节点
+            t.next=newNode;
         }
         size++;
     }
@@ -211,18 +216,17 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E> implements ILinke
     void unlinkNode(int index){
         //检验index是否合法
         checkIndex(index);
-        Node<E> node = head;
+        Node<E> node;
         //index为0时删除的是头结点，直接头结点下移一位
         if(index == 0){
             unlinkFirst();
         }else{
             //先拿到 index-1 处的节点，即要删除的节点的上一个节点
             node = node(index-1);
+            //准备要删除的节点
             Node<E> delNode = node.next;
             if(index == size-1){
                 //如果删除的是尾结点，那么直接将尾结点指向删除节点的上一个节点，尾结点上移一位，并且next置为null
-                //旧的tail等待GC
-                tail = null;
                 tail = node;
                 tail.next = null;
             }else{

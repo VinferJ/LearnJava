@@ -27,5 +27,20 @@ class List{
          * */
         System.out.println(list2.size());
         System.out.println(list2);
+
+        /*
+        *  public ArrayBlockingQueue(int capacity, boolean fair,
+                              Collection<? extends E> c) {
+        this(capacity, fair);
+
+        final ReentrantLock lock = this.lock;
+        lock.lock(); // Lock only for visibility, not mutual exclusion
+        *
+        * 这里加锁是为了防止指令重排，不是保证互斥性或线程安全，因为这里不存在并发安全问题
+        * 禁止指令重排方式：volatile、加锁、final修饰
+        * 而之所以在this初始化之后再加锁，是因为该队列元素存储的数组是final修饰的
+        * 也不会被指令重排，因此不需要在this之前加锁
+        *
+        * */
     }
 }

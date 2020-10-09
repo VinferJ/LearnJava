@@ -166,4 +166,23 @@ public class TestLinkedList {
         }
     }
 
+
+    @Test
+    public void testPerformance(){
+        int eleTotal = 1000000;
+        SingleLinkedList<Integer> myList = new SingleLinkedList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < eleTotal; i++) {
+            myList.add(i);
+        }
+        long start2 = System.currentTimeMillis();
+        System.out.println("myList: "+(start2-start)+" ms");
+        for (int i = 0; i < eleTotal; i++) {
+            linkedList.add(i);
+        }
+        System.out.println("linkedList: "+(System.currentTimeMillis()-start2)+" ms");
+    }
+
+
 }

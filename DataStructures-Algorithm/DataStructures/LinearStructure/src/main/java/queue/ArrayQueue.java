@@ -86,6 +86,7 @@ public class ArrayQueue<E> implements IQueue<E>{
         }
     }
 
+    @SuppressWarnings("unchecked")
     private E getFirst(){
         return (E) elementData[frontPointer];
     }

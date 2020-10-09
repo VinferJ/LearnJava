@@ -79,6 +79,7 @@ public class CircleQueue<E> implements IQueue<E> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     E getTop(){
         return (E) elementData[frontPointer];
     }

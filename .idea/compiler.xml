@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Algorithms" />
+        <module name="Concurrent" />
+        <module name="LinearStructure" />
         <module name="Creational" />
         <module name="Exercises" />
-        <module name="Algorithms" />
+        <module name="StreamApi" />
         <module name="network-programming" />
-        <module name="Network-Programming" />
-        <module name="LinearStructure" />
       </profile>
     </annotationProcessing>
   </component>

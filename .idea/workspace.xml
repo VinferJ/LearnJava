@@ -22,8 +22,51 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现">
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#test&#10;更新并测试git提交账户">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/src/main/java/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/src/main/java/threadpool/ThreadPoolServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/src/test/java/TestCas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/OldWayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/lambda/MultipleParamsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/lambda/OneParamInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/model/ParentChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/strategy/BaseConditionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/strategy/FilterByAgeMoreThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/strategy/FilterBySalaryLessThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/strategy/FilterNameByGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/CreateStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/EndStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/FilterSliceStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/MapStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/ReduceStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/stream/SortStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamApi/src/main/java/utils/ListGenerateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/queue/CircleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AbstractBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AbstractBinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/classes/queue/CircleQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +78,28 @@
       <executable />
     </execution>
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Concurrent">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -64,11 +125,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wefun_workcode/Funlip_API" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -81,6 +143,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\test\java" />
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
@@ -93,13 +158,20 @@
       <recent name="F:\JavaWorkspace\LearnJava\DataStructures-Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBinTree">
-    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.BucketSort" />
-      <module name="Algorithms" />
+  <component name="RunManager" selected="Application.StreamTest">
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaTest" />
+      <module name="StreamApi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldWayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OldWayTest" />
+      <module name="StreamApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
-      <module name="Algorithms" />
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyTest" />
+      <module name="StreamApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,43 +192,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwappingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SwappingSort" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamTest" />
+      <module name="StreamApi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBinTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestBinTree" />
-      <module name="LinearStructure" />
+    <configuration name="TestCas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCas" />
+      <module name="Concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQueue.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinearStructure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestQueue" />
-      <option name="METHOD_NAME" value="testArrayQueue" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQueue.testArrayQueue" />
-        <item itemvalue="Application.TestBinTree" />
-        <item itemvalue="Application.SwappingSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BucketSort" />
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.StrategyTest" />
+        <item itemvalue="Application.OldWayTest" />
+        <item itemvalue="Application.TestCas" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +266,18 @@
       <workItem from="1599332249551" duration="1010000" />
       <workItem from="1599411927565" duration="689000" />
       <workItem from="1599414635651" duration="72000" />
-      <workItem from="1599414823489" duration="136000" />
+      <workItem from="1599414823489" duration="266000" />
+      <workItem from="1599477080284" duration="1221000" />
+      <workItem from="1599553010710" duration="12597000" />
+      <workItem from="1599616319376" duration="5994000" />
+      <workItem from="1599708621998" duration="430000" />
+      <workItem from="1599739727132" duration="3616000" />
+      <workItem from="1599973066737" duration="5035000" />
+      <workItem from="1600221150096" duration="755000" />
+      <workItem from="1600224950281" duration="841000" />
+      <workItem from="1600230760480" duration="6451000" />
+      <workItem from="1600240144011" duration="332000" />
+      <workItem from="1602208272959" duration="24714000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -257,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599414584791</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#test&#10;更新并测试git提交账户">
+      <created>1599415041128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599415041129</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +361,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="#init project" />
     <MESSAGE value="#update project&#10;1. 更新了数组队列数据结构+测试&#10;2. 补全和优化了单向链表和双向链表的api" />
     <MESSAGE value="#update project&#10;1. 修正了链表个别api的算法逻辑&#10;2. 新增了链表的指定位置插入的api&#10;3. 完善代码注释" />
@@ -284,7 +370,8 @@
     <MESSAGE value="#update&#10;1. 新增了递归算法和迷宫问题的练习" />
     <MESSAGE value="#update&#10;1. 新增了八皇后问题算法练习" />
     <MESSAGE value="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1. 新增了八大排序算法实现（堆排序后续更新）&#10;2. 新增了二叉树的简单实现" />
+    <MESSAGE value="#test&#10;更新并测试git提交账户" />
+    <option name="LAST_COMMIT_MESSAGE" value="#test&#10;更新并测试git提交账户" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="140" key="#Inspections" timestamp="1595558704973">
@@ -299,15 +386,24 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="597" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.960@0.0.1707.960" timestamp="1595767227942" />
-    <state x="494" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1599292467794">
+    <state x="2661" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1602213570861">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="494" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1600236315623" />
+    <state x="2661" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602213570861" />
+    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595996861634" />
+    <state x="321" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600221171383">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="494" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1599292467794" />
-    <state x="659" y="185" key="#com.intellij.ide.util.MemberChooser/0.0.1707.960@0.0.1707.960" timestamp="1595996861634" />
+    <state x="321" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.720@0.0.1280.720" timestamp="1600221171383" />
     <state x="308" y="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596393800388">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="308" y="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1596393800388" />
+    <state x="2546" y="411" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602214182589">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2546" y="411" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602214182589" />
     <state x="345" y="98" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1599213547756">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -330,40 +426,49 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="93" y="93" width="1521" height="775" key="DiffContextDialog/0.0.1707.960@0.0.1707.960" timestamp="1595595575288" />
-    <state x="475" y="177" key="FileChooserDialogImpl" timestamp="1599143047039">
+    <state x="475" y="177" key="FileChooserDialogImpl" timestamp="1600240250444">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="475" y="177" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1599143047039" />
+    <state x="475" y="177" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1600240250444" />
     <state x="634" y="236" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1595940941867" />
-    <state width="1237" height="316" key="GridCell.Tab.0.bottom" timestamp="1599333258738">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="529" key="GridCell.Tab.0.bottom" timestamp="1602236473837">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1237" height="316" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1599333258738" />
+    <state width="1663" height="426" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1707.960@1920.0.1707.960" timestamp="1599981713056" />
+    <state width="1237" height="349" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600239971919" />
+    <state width="1877" height="529" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602236473837" />
     <state width="1663" height="217" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="316" key="GridCell.Tab.0.center" timestamp="1599333258738">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="529" key="GridCell.Tab.0.center" timestamp="1602236473836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1237" height="316" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1599333258738" />
+    <state width="1663" height="426" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1707.960@1920.0.1707.960" timestamp="1599981713056" />
+    <state width="1237" height="349" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1600239971919" />
+    <state width="1877" height="529" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602236473836" />
     <state width="1663" height="217" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="316" key="GridCell.Tab.0.left" timestamp="1599333258738">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="529" key="GridCell.Tab.0.left" timestamp="1602236473836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1237" height="316" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1599333258738" />
+    <state width="1663" height="426" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1707.960@1920.0.1707.960" timestamp="1599981713056" />
+    <state width="1237" height="349" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1600239971918" />
+    <state width="1877" height="529" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602236473836" />
     <state width="1663" height="217" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state width="1237" height="316" key="GridCell.Tab.0.right" timestamp="1599333258738">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1877" height="529" key="GridCell.Tab.0.right" timestamp="1602236473836">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1237" height="316" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1599333258738" />
+    <state width="1663" height="426" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1707.960@1920.0.1707.960" timestamp="1599981713056" />
+    <state width="1237" height="349" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1600239971919" />
+    <state width="1877" height="529" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602236473836" />
     <state width="1663" height="217" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1596123877458" />
-    <state x="250" y="13" width="914" height="707" key="SettingsEditor" timestamp="1599414960537">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="300" y="15" width="914" height="707" key="SettingsEditor" timestamp="1602208429822">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1599414960537" />
+    <state x="250" y="13" width="914" height="707" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1600230861200" />
+    <state x="300" y="15" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1602208429822" />
     <state x="334" y="56" width="1053" height="769" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1596015390724" />
-    <state x="334" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599414587706">
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599415043186">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="334" y="158" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599414587706" />
+    <state x="334" y="158" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1599415043186" />
     <state x="446" y="210" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1595985742084" />
     <state x="93" y="93" width="1521" height="775" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1596012552259">
       <screen x="0" y="0" width="1707" height="960" />
@@ -373,22 +478,36 @@
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="649" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.960@0.0.1707.960" timestamp="1595239594052" />
-    <state x="56" y="0" key="new project wizard" timestamp="1596388105968">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="473" y="0" key="new project wizard" timestamp="1602208535275">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1596388105968" />
+    <state x="394" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1600230962163" />
+    <state x="473" y="0" key="new project wizard/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1602208535275" />
     <state x="230" y="96" key="new project wizard/0.0.1707.960@0.0.1707.960" timestamp="1595767363913" />
     <state x="510" y="221" key="run.anything.popup" timestamp="1595559178364">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="510" y="221" key="run.anything.popup/0.0.1707.960@0.0.1707.960" timestamp="1595559178364" />
-    <state x="387" y="154" width="672" height="509" key="search.everywhere.popup" timestamp="1599140195394">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="2500" y="234" width="1009" height="762" key="search.everywhere.popup" timestamp="1602210123597">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="387" y="154" width="672" height="509" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1599140195394" />
+    <state x="387" y="156" width="672" height="507" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1600235714580" />
+    <state x="464" y="187" width="807" height="609" key="search.everywhere.popup/0.0.1536.864/-2560.-171.1707.960@0.0.1536.864" timestamp="1599708839400" />
+    <state x="464" y="187" width="807" height="609" key="search.everywhere.popup/0.0.1536.864/1920.0.1707.960@0.0.1536.864" timestamp="1599747092414" />
+    <state x="464" y="187" width="807" height="609" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1602209226764" />
+    <state x="2500" y="234" width="1009" height="762" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1602210123597" />
     <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1707.960@0.0.1707.960" timestamp="1596119637721" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="tree.TreeNode" memberName="ele" />

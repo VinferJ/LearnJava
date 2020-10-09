@@ -124,10 +124,75 @@ public abstract class AbstractBinTree<T> implements BinTree<T>{
     @Override
     public void deleteNode(TreeNode<T> treeNode) {
         checkNull(treeNode);
-        //TODO  节点删除后还要把后面的节点接回来
+        //拿出父节点
+        TreeNode<T> parent = treeNode.parent;
+        /*
+        * 如果删除的不是根结点，那么treeNode.parent一定不为空
+        * */
+        if(treeNode != root){
+            if(treeNode.leftChild != null){
+                if(parent.leftChild == treeNode){
+                    //将被删除节点上浮成为自己的父节点
+                    parent.leftChild = treeNode.leftChild;
+                }else {
+                    parent.rightChild = treeNode.leftChild;
+                }
+                /*
+                * 处理被删除节点的右子树节点:
+                *   1. 对上浮后的节点优先进行右子树的深度遍历，找到最深的一个节点
+                *   2. 将遍历得到的节点的右子树节点指向该右子树节点
+                * */
+                TreeNode<T> left = treeNode.leftChild;
+                left = getRightDeepestNode(left);
+                left.rightChild = treeNode.rightChild;
+            }else if (treeNode.rightChild != null){
+                if(parent.leftChild == treeNode){
+                    parent.leftChild = treeNode.rightChild;
+                }else {
+                    parent.rightChild = treeNode.rightChild;
+                }
+                /*
+                * 由于进入该循环必定满足treeNode.leftChild == null
+                * 因此这里不需要在考虑对该左子树节点进行连接
+                * */
+            }
+        }else {
+            if(root.leftChild == null){
+                root = root.rightChild;
+            }else if(root.rightChild == null){
+                root = root.leftChild;
+            }else {
+                /*
+                * 根结点的左右节点都不为空时：
+                *   1. 对该左子树节点进行最深的右子树遍历
+                *   2. 将遍历得到的节点的右子树执行初始根节点的右子树节点
+                *   3. 根的左子树上浮成为根节点
+                * */
+                TreeNode<T> left = root.leftChild;
+                left = getRightDeepestNode(left);
+                left.rightChild = root.rightChild;
+                root = root.leftChild;
+            }
+        }
         treeNode = null;
         eleCount--;
         updateTreeHeight();
+    }
+
+    TreeNode<T> getRightDeepestNode(TreeNode<T> treeNode){
+        TreeNode<T> node = treeNode;
+        while (node.rightChild != null){
+            node = node.rightChild;
+        }
+        return node;
+    }
+
+    TreeNode<T> getLeftDeepestNode(TreeNode<T> treeNode){
+        TreeNode<T> node = treeNode;
+        while (node.leftChild != null){
+            node = node.leftChild;
+        }
+        return node;
     }
 
     @Override
@@ -169,7 +234,7 @@ public abstract class AbstractBinTree<T> implements BinTree<T>{
                 }
                 //输出当前遍历节点的元素
                 T ele = treeNode.ele;
-                System.out.print(ele == null?"":ele + " ");
+                System.out.print(ele + " ");
             }
             System.out.println();
         }
