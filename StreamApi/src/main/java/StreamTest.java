@@ -1,7 +1,7 @@
 
 import model.ParentChild;
 import model.Permission;
-import stream.*;
+import stream.sequential.*;
 import utils.ListGenerateUtil;
 
 import java.util.*;
@@ -37,7 +37,7 @@ public class StreamTest {
         MapStreamTest.mapStream();
         SortStreamTest.sortStream();
         EndStreamTest.endStream();
-
+        ReduceStreamTest.reduceStream();
     }
 
 

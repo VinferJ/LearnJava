@@ -1,4 +1,4 @@
-package stream;
+package stream.sequential;
 
 import model.Employee;
 import utils.ListGenerateUtil;
