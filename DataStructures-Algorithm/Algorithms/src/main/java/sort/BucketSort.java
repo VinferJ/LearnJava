@@ -18,9 +18,10 @@ import java.util.List;
  * 但是实现很复杂
  *
  * 基数排序需要的额外空间，一般每个桶的大小都会设置为与原数组大小一致
- * 当数据量非常大的时候比如一个亿的时候，会需要非常巨大的内存空间(GB级别)
+ * 当数据量非常大的时候比如一个亿的时候，会需要非常巨大的内存空间
+ * (GB级别，如果是整型数组，每个桶大约0.37GB大小，排序需要固定的10个桶，那么总大小就是3.7GB)
  * 这个时候如果内存不足就会直接导致OOM
- * 所以可以说基数排序算是极限的空间换时间的排序
+ * 所以可以说基数排序算是极限的空间换时间的排序，也是单线程内部排序中最快的排序算法
  * 如果用扩容机制又或者链表去代替原数组大小的桶的话，基数排序的性能就会大打折扣了
  *
  *
@@ -35,7 +36,7 @@ public class BucketSort {
         int[] arr = {8,6,11,7,321,5,12,4,1000,100,10};
         sort(arr);
         System.out.println(Arrays.toString(arr));
-        int[] arr2 = new int[10000000];
+        int[] arr2 = new int[1000 * 10000];
         SwappingSort.generateRandomData(arr2);
         long start = System.currentTimeMillis();
         System.out.println("sorting array...");
@@ -67,7 +68,7 @@ public class BucketSort {
         for (int x = 0; x < round; x++) {
             /*
              * 将数组中的元素依次取出
-             * 从个位开始，一直取出元素的位数
+             * 从个位开始，一直取出元素的所有位数
              * 然后根据这个位数将取出的元素放到与位数对应的
              * 下标的桶中，如果元素最大的位数小于要取出的位数
              * 那么用0来代替，重复步骤知道最大值都不能再取出下一位
@@ -124,6 +125,8 @@ public class BucketSort {
     }
 
     private static int getMax(int[] arr){
+        //桶排序必须先找到最大值确认最大值的位数，因此这里也会产生部分耗时
+        //这也说明了桶排序真正的排序速度非常之快
         int max = 0;
         for (int i : arr) {
             if(i >= max){

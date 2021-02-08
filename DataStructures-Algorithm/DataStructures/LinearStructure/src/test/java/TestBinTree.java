@@ -1,6 +1,6 @@
-import tree.BinTree;
-import tree.BinaryTree;
-import tree.TreeNode;
+import tree.binary.BinTree;
+import tree.binary.BinaryTree;
+import tree.binary.TreeNode;
 
 /**
  * @author Vinfer
@@ -25,7 +25,6 @@ public class TestBinTree {
         System.out.println(firstLeft.getEle());
         System.out.println(secondRight.getEle());
         System.out.println(binTree.getParent(secondRight) == firstLeft);
-        binTree.addLeftChild(secondRight, "jeve");
         binTree.levelTraversal();
         System.out.println(binTree.size());
         binTree.deleteNode(firstLeft);
