@@ -2,7 +2,6 @@ package string;
 
 /**
  * @author Vinfer
- * @version plugin-v1.2
  * @date 2020-12-24    00:57
  **/
 public class FindDifference {

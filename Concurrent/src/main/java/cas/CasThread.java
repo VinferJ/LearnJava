@@ -17,6 +17,7 @@ public class CasThread implements Runnable{
         this.name = name;
     }
 
+    @Override
     public void run() {
         /*
         * 每次更新时，只有一个线程可以更新成功值，保证线程安全

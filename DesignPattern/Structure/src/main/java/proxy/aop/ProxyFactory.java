@@ -62,6 +62,7 @@ public class ProxyFactory {
                     if (scanningFile.isDirectory()){
                         String nextScanning = packageName + "." + scanningFile.getName();
                         String fileAbsolutePath = scanningFile.getAbsolutePath();
+                        //递归扫描
                         doScan(cl,nextScanning,fileAbsolutePath,storeList);
                     }else {
                         String fileName = scanningFile.getName();
@@ -146,8 +147,8 @@ public class ProxyFactory {
 
     @SuppressWarnings("unchecked")
     public <T> T getProxyInstance(Class<T> requiredType){
-        System.out.println(proxyClassMap);
-        System.out.println(proxyInterfaceMap);
+        //System.out.println(proxyClassMap);
+        //System.out.println(proxyInterfaceMap);
         Class<?>[] interfaces = requiredType.getInterfaces();
         if (interfaces.length == 0){
             throw new RuntimeException("jdk dynamic proxy class requires implementing interface");

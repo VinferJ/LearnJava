@@ -22,92 +22,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="#update&#10;1.更新了jdk8其他一些新特性的demo">
-      <change afterPath="$PROJECT_DIR$/.idea/LearnJava.iml" afterDir="false" />
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容">
+      <change afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Concurrent/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Concurrent/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/multiple/IndexTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/multiple/MultiTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/multiple/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/AbstractCarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/BenzBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/BenzCarDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/BmwBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/CarDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/model/AbstractCarBuilderModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/model/AbstractCarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/model/AudiModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/model/BenzModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/builder/model/BmwModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/AdidasProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/NikeProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/AbstractBootProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/AbstractComputerProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/Adidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/MacBookPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/Nike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/factory/products/SurfaceBookPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/prototype/DeepCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/prototype/ShallowCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/AbstractComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/AbstractDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/DecoratorOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/DecoratorTow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/OriginalComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/GamePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/GamePlayerProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/GenericProxyPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/Player2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/DelegateProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/GenericProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/IGamePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/annotation/AfterRunning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/annotation/Around.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/annotation/BeforeRunning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/annotation/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/annotation/ProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/game/GamePlay3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/game/GamePlay4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/handler/GameProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/handler/GameProxyHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/test/GamePlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/test/GamePlay2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPrinciples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPrinciples/src/main/java/lsp/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPrinciples/src/main/java/lsp/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FindDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/stack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindNumberInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindRepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/SumOfTwoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/FindNodeFromLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/GenericListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/DuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/MatrixSpiralOrderPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/MaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/LeftSpinningString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/BucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AbstractBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/AbstractBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/AvlTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/BinSearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/HuffmanTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/RedBlackTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Creational/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Creational/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/stack/CalculatorPlusVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/CalculatorPlusVer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/string/FindDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FindDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +144,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -225,19 +167,20 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="string" />
       <recent name="proxy.aop.game" />
       <recent name="proxy.aop.handler" />
       <recent name="" />
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.Client" />
-      <module name="Structure" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Calculator" />
+      <module name="Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,8 +188,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FindDifference" />
+    <configuration name="CalculatorPlusVer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.CalculatorPlusVer" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FirstUniqChar" />
       <module name="Exercises" />
       <extension name="coverage">
         <pattern>
@@ -258,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.aop.Test" />
-      <module name="Structure" />
+    <configuration name="MazeIssue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.MazeIssue" />
+      <module name="Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.aop.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,25 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.multiple.Test" />
-      <module name="LinearStructure" />
+    <configuration name="SumOfTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SumOfTwoNumber" />
+      <module name="Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.multiple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.binary.Test" />
-      <module name="LinearStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.binary.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.FindDifference" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.CalculatorPlusVer" />
+        <item itemvalue="Application.MazeIssue" />
+        <item itemvalue="Application.SumOfTwoNumber" />
+        <item itemvalue="Application.FirstUniqChar" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +329,13 @@
       <workItem from="1611655347675" duration="306000" />
       <workItem from="1611711190788" duration="111000" />
       <workItem from="1611711373605" duration="6104000" />
-      <workItem from="1612783636485" duration="17000" />
+      <workItem from="1612783636485" duration="528000" />
+      <workItem from="1614070065467" duration="7215000" />
+      <workItem from="1614130763251" duration="30650000" />
+      <workItem from="1614179433799" duration="512000" />
+      <workItem from="1614180092267" duration="4062000" />
+      <workItem from="1614221814877" duration="72000" />
+      <workItem from="1614221926236" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -465,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602319494715</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容">
+      <created>1612783866567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612783866567</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +452,8 @@
     <MESSAGE value="#test&#10;更新并测试git提交账户" />
     <MESSAGE value="#update&#10;1.新增了Stream API模块&#10;2.编写了对Stream API 基本使用的demo" />
     <MESSAGE value="#update&#10;1.更新了jdk8其他一些新特性的demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="#update&#10;1.更新了jdk8其他一些新特性的demo" />
+    <MESSAGE value="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,6 +467,11 @@
           <url>file://$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/tree/binary/AvlTree.java</url>
           <line>356</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$PROJECT_DIR$/../../Developer Tools/Java/jdk1.8.0_206/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
@@ -527,5 +489,10 @@
         <PinnedItemInfo parentTag="tree.TreeNode" memberName="leftChild" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LearnJava$SumOfTwoNumber.ic" NAME="SumOfTwoNumber Coverage Results" MODIFIED="1614183637372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>array.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -2,6 +2,8 @@ package linkedlist;
 
 import list.SingleLinkedList;
 
+import java.util.Stack;
+
 /**
  * @author Vinfer
  * @date 2020-07-23  20:15
@@ -10,7 +12,6 @@ public class ListReverse {
 
 
     public static void main(String[] args) {
-        SingleLinkedList<Integer> singleList = new SingleLinkedList<Integer>();
 
         /*
         * 1. 求链表节点个数
@@ -21,6 +22,38 @@ public class ListReverse {
         *
         * */
 
+
+        GenericListNode head = new GenericListNode(1);
+        GenericListNode listNode = head;
+        for (int i = 2; i <= 6 ; i++) {
+            listNode.next = new GenericListNode(i);
+            listNode = listNode.next;
+        }
+        GenericListNode reverseListNode = reverseList(head);
+        if (reverseListNode != null){
+            System.out.println(reverseListNode.val);
+        }
+    }
+
+    public static GenericListNode reverseList(GenericListNode head){
+        if (head == null){
+            return null;
+        }
+        // 逆序都可以借助Stack来完成
+        Stack<GenericListNode> nodeStack = new Stack<>();
+        GenericListNode node = head;
+        while (node != null){
+            nodeStack.add(node);
+            node = node.next;
+        }
+        GenericListNode newHeadNode = nodeStack.pop();
+        GenericListNode temp = newHeadNode;
+        while (!nodeStack.empty()){
+            temp.next = nodeStack.pop();
+            temp = temp.next;
+        }
+        temp.next = null;
+        return newHeadNode;
     }
 
 

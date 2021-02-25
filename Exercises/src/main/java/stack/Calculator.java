@@ -23,7 +23,7 @@ public class Calculator {
         Pattern pattern = Pattern.compile(regex);
         String[] split = pattern.split(exp1);
         System.out.println(Arrays.toString(split));
-        System.out.println(-22.187+1.187-2*3.5-3+2.5);
+        System.out.println(22.187-1.187-2*3.5-3+2.5);
         System.out.println(calculate(exp1));
     }
 

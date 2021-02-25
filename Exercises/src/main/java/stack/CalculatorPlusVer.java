@@ -22,7 +22,7 @@ public class CalculatorPlusVer extends Calculator{
         checkExpression(expression);
         //将中缀表达式转换成后缀表达式
         String postfixExpression = postfixExpTransform(expression);
-        System.out.println(postfixExpression);
+        System.out.println("后缀表达式为："+postfixExpression);
         //计算值病返回
         return doCalculate(postfixExpression);
     }
