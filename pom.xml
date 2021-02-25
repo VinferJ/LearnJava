@@ -13,7 +13,6 @@
         <module>Exercises</module>
         <module>DesignPattern</module>
         <module>network-programming</module>
-        <module>Concurrent</module>
         <module>StreamApi</module>
         <module>DesignPrinciples</module>
     </modules>

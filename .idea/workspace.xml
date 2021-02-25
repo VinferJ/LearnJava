@@ -22,34 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容">
-      <change afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindNumberInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/FindRepeatNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/array/SumOfTwoNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/FindNodeFromLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/GenericListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/DuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/MatrixSpiralOrderPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/LeftSpinningString.java" afterDir="false" />
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE]&#10;更新了leetcode的一些练习题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/proxy/aop/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/linkedlist/ListReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/stack/CalculatorPlusVer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/stack/CalculatorPlusVer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/string/FindDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FindDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FirstUniqChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/cas/CasThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/main/java/threadpool/ThreadPoolServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent/src/test/java/TestCas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +129,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22068965" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -236,6 +221,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +332,7 @@
       <workItem from="1614180092267" duration="4062000" />
       <workItem from="1614221814877" duration="72000" />
       <workItem from="1614221926236" duration="902000" />
+      <workItem from="1614246154604" duration="2947000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -421,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612783866567</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[UPDATE]&#10;更新了leetcode的一些练习题">
+      <created>1614246193105</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614246193106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +457,8 @@
     <MESSAGE value="#update&#10;1.新增了Stream API模块&#10;2.编写了对Stream API 基本使用的demo" />
     <MESSAGE value="#update&#10;1.更新了jdk8其他一些新特性的demo" />
     <MESSAGE value="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容" />
+    <MESSAGE value="[UPDATE]&#10;更新了leetcode的一些练习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]&#10;更新了leetcode的一些练习题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
