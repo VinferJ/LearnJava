@@ -184,5 +184,18 @@ public class TestLinkedList {
         System.out.println("linkedList: "+(System.currentTimeMillis()-start2)+" ms");
     }
 
+    @Test
+    public void testReverse(){
+        SingleLinkedList<Integer> list = new SingleLinkedList<>();
+        for (int i = 1; i < 11; i++) {
+            list.add(i);
+        }
+        System.out.println(list);
+        list.reverseFromHead();
+        System.out.println(list);
+        list.reverseFromTail();
+        System.out.println(list);
+    }
+
 
 }

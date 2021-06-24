@@ -15,6 +15,9 @@
         <module>network-programming</module>
         <module>StreamApi</module>
         <module>DesignPrinciples</module>
+        <module>Jvm</module>
+        <module>CompleteableFutureApi</module>
+        <module>Concurrent-Programming</module>
     </modules>
 
     <dependencies>

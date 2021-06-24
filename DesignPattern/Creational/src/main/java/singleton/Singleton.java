@@ -14,7 +14,7 @@ public class Singleton implements Serializable {
      * 如果是在其之后，会在初始化instance之后又保存了false的isInstantiated
      * 从而被覆盖导致该变量失去了原本的目的
      */
-    private static boolean isInstantiated = false;
+    private static volatile boolean isInstantiated = false;
 
     private static volatile Singleton instance;
 
@@ -39,7 +39,6 @@ public class Singleton implements Serializable {
             synchronized (Singleton.class){
                 if (instance == null){
                     instance = new Singleton();
-                    return instance;
                 }
             }
         }

@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Behavioral" />
+        <module name="Jvm" />
         <module name="Algorithms" />
+        <module name="CompleteableFutureApi" />
         <module name="LinearStructure" />
         <module name="Creational" />
         <module name="Exercises" />
@@ -16,6 +18,7 @@
         <module name="StreamApi" />
         <module name="Structure" />
         <module name="network-programming" />
+        <module name="Concurrent-Programming" />
       </profile>
     </annotationProcessing>
   </component>

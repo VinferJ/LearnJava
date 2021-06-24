@@ -105,6 +105,10 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E>
             * 由于是单向链表。因此头插很简单
             * 拿到头结点，将头结点指向新节点
             * 并且该新的头结点的next指向旧的头结点
+            * 下面的代码操作等价于：
+            * Node node = new Node<>(ele,null);
+            * node.next = head;
+            * head = node
             * */
             head = new Node<>(ele, head);
         }
@@ -306,6 +310,37 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E>
      * 单链表倒置才有意义，双链表由于有prev节点，倒置没有意义（从尾部向头结点遍历即可）
      */
     public void reverse(){
+        reverseFromHead();
+    }
+
+    public void reverseFromHead(){
+        //MY-NOTE 单链表倒置的基本思路：
+        // 从头部开始倒置：
+        //      首先需要preNode,currNode两个中间节点，并且两者的初始关系是：currNode = preNode.next
+        //      每次将currNode.next指向preNode，然后currNode和preNode都向前移动一个节点
+        //      因此在修改currNode.next的指向之前，需要先将currNode（用作下一个preNode）以及currNode.next（用作下一个currNode）保存
+        //      然后再修改指向，修改后，preNode和currNode都可以向前移动一个节点
+
+        if(head != null){
+            // 从链表头部进行倒置，因此头结点作为第一个前节点
+            Node<E> pre = head;
+
+            Node<E> curr = head.next;
+            while (curr != null){
+                Node<E> temp = curr;
+                Node<E> next = curr.next;
+                curr.next = pre;
+                pre = temp;
+                curr = next;
+            }
+            Node<E> oldHead = head;
+            head = pre;
+            tail = oldHead;
+            tail.next = null;
+        }
+    }
+
+    public void reverseFromTail(){
         /*tail非空且不等于head时倒置才有意义*/
         if(tail!=null&&tail!=head){
             /*
@@ -326,8 +361,8 @@ public class SingleLinkedList<E> extends AbstractLinkedList<E>
             int currentLastIndex=size-1;
 
             /*
-            * O(N^2)复杂度的链表倒置，空间开销小，只需要3个中间节点
-            * */
+             * O(N^2)复杂度的链表倒置，空间开销小，只需要3个中间节点
+             * */
             for (int i = 0; i < size-1; i++) {
                 //每次都从头结点开始遍历
                 tempNode=head;
