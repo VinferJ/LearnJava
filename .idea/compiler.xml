@@ -9,16 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Behavioral" />
         <module name="Jvm" />
-        <module name="Algorithms" />
         <module name="CompleteableFutureApi" />
         <module name="LinearStructure" />
+        <module name="completeablefutureapi" />
+        <module name="network-programming" />
+        <module name="Concurrent-Programming" />
+        <module name="Algorithms" />
+        <module name="concurrent-programming" />
         <module name="Creational" />
         <module name="Exercises" />
         <module name="DesignPrinciples" />
         <module name="StreamApi" />
         <module name="Structure" />
-        <module name="network-programming" />
-        <module name="Concurrent-Programming" />
       </profile>
     </annotationProcessing>
   </component>

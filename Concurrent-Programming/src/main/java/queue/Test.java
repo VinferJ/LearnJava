@@ -4,40 +4,26 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * @author vinfer
- * @date 2021-06-19 23:34
+ * @author Jiang wenfa
+ * @date 2021-06-28 21:08
  */
-public class BlockingQueueTest {
+public class Test {
 
-    public static void main(String[] args) throws InterruptedException {
-        testCustomQueue();
-        //testJavaBlockingQueue();
+    public static void main(String[] args) {
+       testCustomQueue();
     }
 
     static void testCustomQueue(){
         CustomBlockingQueue<Integer> bq = new CustomArrayBlockingQueue<>(10000 * 10);
         new Thread(() -> {
-            for(;;){
-                consume(bq);
-            }
-        },"consumer-thread-1").start();
 
-        new Thread(() -> {
-            for(;;){
-                consume(bq);
-            }
-
-        },"consumer-thread-2").start();
-
-        new Thread(() -> {
-
-            try {
+            /*try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
 
-            for (int i = 0; i < 9999; i++) {
+            for (int i = 0; i < 999; i++) {
                 System.out.println("producing: " + (i+1));
                 bq.offer(i+1);
                 try {
@@ -54,6 +40,20 @@ public class BlockingQueueTest {
             },"consumer-thread-3").start();
 
         }).start();
+        new Thread(() -> {
+            for(;;){
+                consume(bq);
+            }
+        },"consumer-thread-1").start();
+
+        new Thread(() -> {
+            for(;;){
+                consume(bq);
+            }
+
+        },"consumer-thread-2").start();
+
+
     }
 
     static void consume(CustomBlockingQueue<Integer> bq){
@@ -99,7 +99,7 @@ public class BlockingQueueTest {
                 e.printStackTrace();
             }
 
-            for (int i = 0; i < 9999; i++) {
+            for (int i = 0; i < 999; i++) {
                 System.out.println("producing: " + (i+1));
                 bq.offer(i+1);
             }
@@ -121,7 +121,5 @@ public class BlockingQueueTest {
         Integer take = bq.take();
         System.out.println(Thread.currentThread().getName()+"-consuming: " + take);
     }
-
-
 
 }

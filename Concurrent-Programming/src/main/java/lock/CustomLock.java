@@ -11,57 +11,57 @@ import java.util.concurrent.locks.LockSupport;
  */
 public class CustomLock {
 
-    private static final AtomicBoolean LOCK_FLAG = new AtomicBoolean(false);
+    private final AtomicBoolean lockFlag = new AtomicBoolean(false);
 
-    private static final Queue<Thread> SYNC_QUEUE = new ArrayDeque<>();
+    private final Queue<Thread> syncQueue = new ArrayDeque<>();
 
-    private static final Queue<Thread> AWAIT_QUEUE = new ArrayDeque<>();
+    private final Queue<Thread> awaitQueue = new ArrayDeque<>();
 
-    public static class Condition{
+    public class Condition{
         public void await(){
-            while (!SYNC_QUEUE.contains(Thread.currentThread())) {
-                if (!AWAIT_QUEUE.contains(Thread.currentThread())){
-                    AWAIT_QUEUE.offer(Thread.currentThread());
+            while (!syncQueue.contains(Thread.currentThread())) {
+                if (!awaitQueue.contains(Thread.currentThread())){
+                    awaitQueue.offer(Thread.currentThread());
                     // 当前线程需要释放锁
-                    LOCK_FLAG.compareAndSet(true,false);
+                    lockFlag.compareAndSet(true,false);
                 }
                 LockSupport.park();
             }
         }
 
         public void signal(){
-            if (AWAIT_QUEUE.isEmpty()){
+            if (awaitQueue.isEmpty()){
                 return;
             }
-            Thread signalThread = AWAIT_QUEUE.poll();
-            SYNC_QUEUE.offer(signalThread);
+            Thread signalThread = awaitQueue.poll();
+            syncQueue.offer(signalThread);
             LockSupport.unpark(signalThread);
         }
     }
 
     public void lock(){
         for (;;){
-            if (LOCK_FLAG.compareAndSet(false,true)) {
+            if (lockFlag.compareAndSet(false,true)) {
                 return;
             }
-            SYNC_QUEUE.offer(Thread.currentThread());
+            syncQueue.offer(Thread.currentThread());
             LockSupport.park();
         }
     }
 
     public void lock(long nanos){
         for (;;){
-            if (LOCK_FLAG.compareAndSet(false,true)) {
+            if (lockFlag.compareAndSet(false,true)) {
                 return;
             }
-            SYNC_QUEUE.offer(Thread.currentThread());
+            syncQueue.offer(Thread.currentThread());
             LockSupport.parkNanos(nanos);
         }
     }
 
     public void unlock(){
-        LockSupport.unpark(SYNC_QUEUE.poll());
-        LOCK_FLAG.compareAndSet(true,false);
+        LockSupport.unpark(syncQueue.poll());
+        lockFlag.compareAndSet(true,false);
     }
 
     public Condition newCondition(){

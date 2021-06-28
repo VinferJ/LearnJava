@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -15,9 +16,7 @@ public class Client {
 
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        //test1();
-        F f = new F();
-        C c = new C();
+        test3();
     }
 
     static class F{
@@ -80,6 +79,40 @@ public class Client {
         future.get();
         System.out.println("=====================");
         Thread.sleep(2000);
+    }
+
+    static void test3() throws ExecutionException, InterruptedException {
+        CompletableFuture<Void> future1 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("future....");
+            return null;
+        });
+        CompletableFuture<Void> future2 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("future....");
+            return null;
+        });
+        CompletableFuture<Void> future3 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("future....");
+            return null;
+        });
+        CompletableFuture<Void> allOf = CompletableFuture.allOf(future1, future2, future3);
+        long start = Calendar.getInstance().getTimeInMillis();
+        allOf.get();
+        System.out.println(Calendar.getInstance().getTimeInMillis() - start);
     }
 
     static String queryCache(){

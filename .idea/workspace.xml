@@ -23,66 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE]&#10;更新了leetcode的一些练习题">
-      <change afterPath="$PROJECT_DIR$/CompleteableFutureApi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/TaskExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/TaskInterrupter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/ConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestAqs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/mesi/TestCacheLinePadding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/CustomArrayBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/CustomBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/threadpool/TestThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/util/LockUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/map/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/bintree/TraverseBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/approve/Approver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/approve/CheckProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/approve/ProcessEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/approve/ProcessingChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/approve/ProcessingPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/atmosphere/AtmosphereStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/atmosphere/DataCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/atmosphere/GenericBulletinBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/atmosphere/GenericNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/atmosphere/MeteorologicalData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/Flavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/PizzaShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/PizzaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/ShenzhenFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/dianchu/pizza/XiamenFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/AuKeyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/ParamTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/javase/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/FindPrimePalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/others/ResolveSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/recursion/FindMatrixBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises/src/main/java/string/FindCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jvm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jvm/src/main/java/FinalizeEscapeGc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jvm/src/main/java/RuntimeConstantPoolOom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jvm/src/main/java/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnJava.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/MyArrayBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SwappingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/Algorithms/src/main/java/sort/SwappingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/main/java/list/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestSparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/src/test/java/TestSparseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures-Algorithm/DataStructures/LinearStructure/target/test-classes/TestLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Creational/src/main/java/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/BlockingQueueTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,9 +112,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.22068965" />
+    <property name="project.structure.side.proportion" value="0.14577258" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
@@ -198,10 +147,9 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLock">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.BlockingQueueTest" />
-      <module name="Concurrent-Programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="queue.*" />
@@ -212,23 +160,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConditionTest" />
-      <module name="Concurrent-Programming" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="completeablefutureapi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskExecutor" />
-      <module name="CompleteableFutureApi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskInterrupter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskInterrupter" />
-      <module name="CompleteableFutureApi" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.Test" />
+      <module name="concurrent-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,20 +193,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.TestSynchronized" />
+      <module name="concurrent-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TaskInterrupter" />
-      <item itemvalue="Application.TaskExecutor" />
       <item itemvalue="Application.BlockingQueueTest" />
-      <item itemvalue="Application.ConditionTest" />
       <item itemvalue="Application.TestLock" />
+      <item itemvalue="Application.TestSynchronized" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLock" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BlockingQueueTest" />
-        <item itemvalue="Application.ConditionTest" />
-        <item itemvalue="Application.TaskExecutor" />
-        <item itemvalue="Application.TaskInterrupter" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.TestSynchronized" />
+        <item itemvalue="Application.TestLock" />
       </list>
     </recent_temporary>
   </component>
@@ -394,6 +365,9 @@
       <workItem from="1624114622447" duration="7045000" />
       <workItem from="1624166421166" duration="13013000" />
       <workItem from="1624375120845" duration="798000" />
+      <workItem from="1624536378367" duration="1623000" />
+      <workItem from="1624611200932" duration="6338000" />
+      <workItem from="1624876985837" duration="3997000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
