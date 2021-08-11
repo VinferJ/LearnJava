@@ -22,16 +22,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE]&#10;更新了leetcode的一些练习题">
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/MyArrayBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/Test.java" afterDir="false" />
+    <list default="true" id="6cd507c3-6025-4baa-9f97-efa60a0459e1" name="Default Changelist" comment="[UPDATE] 更新lock">
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/Latch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/CustomLinkedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/AbstractDutyChainHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/DutyChainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/DutyChainHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/Handler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/Handler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/Handler3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/Duty1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/Duty2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/Duty3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/DutyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/DutyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/Behavioral/src/main/java/dutychain/others/ParamDutyChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/AbstractReaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/AbstractWriterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/GenericDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/GenericDataWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobComponentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/JobStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/jobs/exceptions/AbstractJobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/stacktrace/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/src/main/java/stacktrace/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompleteableFutureApi/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/CustomLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/lock/TestLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/BlockingQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/MyArrayBlockingQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent-Programming/src/main/java/queue/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/AbstractComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/Structure/src/main/java/decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +119,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://E:/Java/jdk1.8.0_251/src.zip!/java/io/InputStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/Java/jdk1.8.0_251/src.zip!/java/io/FileInputStream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -108,7 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GraduationDesign-Others/HomeworkManager-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/work/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -116,7 +153,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14577258" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -128,6 +165,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWorkSpaces\LearnJava\work\src\main\java" />
       <recent name="D:\Java WorkSpace\LearnJava\DesignPattern\Creational\src\main\java\factory" />
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\test\java" />
       <recent name="F:\JavaWorkspace\DataStructures-Algorithms\DataStructures\LinearStructure\src\main\java" />
@@ -147,12 +185,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.BlockingQueueTest" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dutychain.Client" />
+      <module name="Behavioral" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="dutychain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,18 +200,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="completeablefutureapi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.Test" />
-      <module name="concurrent-programming" />
+      <option name="MAIN_CLASS_NAME" value="decorator.Client" />
+      <module name="Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,9 +212,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.TestLock" />
-      <module name="Concurrent-Programming" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacktrace.Temp" />
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacktrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacktrace.Test" />
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacktrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.TestLatch" />
+      <module name="concurrent-programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lock.*" />
@@ -193,44 +251,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.TestSynchronized" />
-      <module name="concurrent-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BlockingQueueTest" />
-      <item itemvalue="Application.TestLock" />
-      <item itemvalue="Application.TestSynchronized" />
+      <item itemvalue="Application.Temp" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.TestLatch" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BlockingQueueTest" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.TestSynchronized" />
-        <item itemvalue="Application.TestLock" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.TestLatch" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +414,19 @@
       <workItem from="1624375120845" duration="798000" />
       <workItem from="1624536378367" duration="1623000" />
       <workItem from="1624611200932" duration="6338000" />
-      <workItem from="1624876985837" duration="3997000" />
+      <workItem from="1624876985837" duration="27822000" />
+      <workItem from="1625469932384" duration="16000" />
+      <workItem from="1626234991596" duration="17960000" />
+      <workItem from="1626308912071" duration="1247000" />
+      <workItem from="1626314463488" duration="56000" />
+      <workItem from="1626314702851" duration="13089000" />
+      <workItem from="1626509670452" duration="689000" />
+      <workItem from="1626755783140" duration="1984000" />
+      <workItem from="1626843799721" duration="1474000" />
+      <workItem from="1627282355394" duration="1274000" />
+      <workItem from="1627387934604" duration="10711000" />
+      <workItem from="1627875700582" duration="3470000" />
+      <workItem from="1628240052450" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="#init project">
       <created>1595239623477</created>
@@ -460,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614246193106</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[UPDATE] 更新lock">
+      <created>1624887317783</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624887317783</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +559,8 @@
     <MESSAGE value="#update&#10;1.更新了jdk8其他一些新特性的demo" />
     <MESSAGE value="[UPDATE]&#10;更新了设计模式、数据结构等模块的内容" />
     <MESSAGE value="[UPDATE]&#10;更新了leetcode的一些练习题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]&#10;更新了leetcode的一些练习题" />
+    <MESSAGE value="[UPDATE] 更新lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE] 更新lock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,6 +584,11 @@
           <url>jar://$PROJECT_DIR$/../../Develop/Java/jdk1.8.0_251/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
           <line>1166</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>jar://E:/Java/jdk1.8.0_251/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>643</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>jar://$PROJECT_DIR$/../../Developer Tools/Java/jdk1.8.0_206/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>

@@ -1,7 +1,5 @@
 package decorator;
 
-import java.util.concurrent.AbstractExecutorService;
-
 /**
  * @author Vinfer
  * @version v1.1

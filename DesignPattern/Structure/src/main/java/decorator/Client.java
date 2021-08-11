@@ -1,10 +1,7 @@
 package decorator;
 
-import sun.dc.pr.PRError;
-
-import java.util.ArrayList;
+import java.text.DecimalFormat;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * @author Vinfer
@@ -40,15 +37,6 @@ public class Client {
         component = new DecoratorTow(component);
         component.operate();
 
-        MyList<String> list = new MyList<String>();
-        list.add("has");
-        list.add("jack");
-        list.add("john");
-        Iterator<String> iterator = list.iterator();
-        //iterator can be only iterated once...
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
     }
 
 

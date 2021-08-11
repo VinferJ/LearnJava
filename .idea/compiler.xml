@@ -10,6 +10,7 @@
         <module name="Behavioral" />
         <module name="Jvm" />
         <module name="CompleteableFutureApi" />
+        <module name="work" />
         <module name="LinearStructure" />
         <module name="completeablefutureapi" />
         <module name="network-programming" />

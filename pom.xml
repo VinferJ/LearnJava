@@ -18,6 +18,7 @@
         <module>Jvm</module>
         <module>CompleteableFutureApi</module>
         <module>Concurrent-Programming</module>
+        <module>work</module>
     </modules>
 
     <dependencies>
