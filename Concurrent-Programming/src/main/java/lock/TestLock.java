@@ -16,6 +16,13 @@ public class TestLock {
 
     public static void main(String[] args) throws InterruptedException {
         //test2();
+        clean();
+        ReentrantLock lock = new ReentrantLock();
+
+    }
+
+    static void clean(String... list){
+        Arrays.stream(list).filter(s -> !s.isEmpty()).forEach(System.out::println);
     }
 
     static void test1(){
