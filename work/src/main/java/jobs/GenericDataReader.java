@@ -29,7 +29,7 @@ public interface GenericDataReader extends JobComponent{
      * 读取1条数据
      * @return      数据对象
      */
-    <T> T readOne();
+    //<T> T readOne();
 
     /**
      * reader中是否还存在可以被读取的数据
@@ -45,6 +45,6 @@ public interface GenericDataReader extends JobComponent{
     /**
      * 关闭reader，reader被关闭后，无法再读取数据
      */
-    void shutdownReader();
+    //void shutdownReader();
 
 }

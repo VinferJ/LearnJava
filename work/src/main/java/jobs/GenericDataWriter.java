@@ -17,19 +17,19 @@ public interface GenericDataWriter extends JobComponent{
      * 批量写入数据并冲刷数据缓冲区
      * @param dataList      要进行写入的数据集合
      */
-    void writeAndFlush(List<Object> dataList);
+    <T> void writeAndFlush(List<T> dataList);
 
     /**
      * 写入单条数据，并冲刷缓存区
      * @param data          要进行写入的数据
      */
-    void writeAndFlush(Object data);
+    <T> void writeAndFlush(T data);
 
     /**
      * 向数据缓冲区添加一条数据
      * @param data      要写入的数据
      */
-    void appendData(Object data);
+    <T> void appendData(T data);
 
     /**
      * 冲刷writer的数据缓冲区，将其中的所有数据进行批量写db
